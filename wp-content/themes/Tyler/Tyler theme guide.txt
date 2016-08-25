@@ -1,0 +1,60 @@
+Please find Event Manager theme Guide at
+
+http://www.eventmanagerblog.com/tyler-theme-guide
+
+== Changelog ==
+
+(07/28/2014)
+* Version updated to 1.5.2
+* Fix edge-case issue with registration button on Main Menu and Register Widget. Fie(s) changed: 
+	- index.php
+	- event-framework/components/widgets/widget-registration.php
+* Fix Media is not displaying if static homepage is set. Fie(s) changed: 
+	- functions.php
+
+(07/03/2014)
+* Version updated to 1.5.1
+* Fix Countdown issue. Fie(s) changed: 
+	- event-framework/components/widgets/widget-timer.php
+
+(06/30/2014)
+* Version updated to 1.5
+* Fix Hero background issue on mobile. Fie(s) changed:
+	- css/layout-mobile.css 
+
+(06/13/2014)
+* Version updated to 1.4
+* Remove Post info , share button and older post link in pages. File(s) changed:
+	- page.php
+* Fix "Sessions cannot have no speakers" issue. File(s) changed:
+	- event-framework/components/metaboxes/session.php
+* Fix "Menu in Mobile has problem". File(s) changed:
+	- js/main.js
+
+(06/04/2014)
+* Version updated to 1.3
+* Fix "Schedule not appearing" issue. File(s) changed:
+	- event-framework/helpers/cpt/sessions.php
+* Fix "Proper scrolling with arrows between sessions" - now the order should be by session date. File(s) changed:
+	- functions.php
+	- single-session.php 
+
+(06/03/2014)
+* Version updated to 1.2
+* No HTML in registration widget. File(s) changed:
+	- event-framework/components/widgets/widget-registration.php
+* Add Widget Search filter for Widgets and Widget areas. File(s) changed:
+	- event-framework/event-framework.php
+	- event-framework/assets/js/search-widget.js
+
+
+(05/28/2014)
+* Version updated to 1.1
+* Fix issue with Tyler Registration Widget register button. File(s) changed:
+	- functions.php
+	- index.php
+	- event-framework/components/widgets/widget-registration.php
+* Replace Speaker checkbox selector with AJAX for single Session. File(s) changed:
+	- event-framework/components/metaboxes/session.php
+* Fix issue with Tyler Latest News Widget if there is no "Blog" category. File(s) changed:
+	- event-framework/components/widgets/widget-news.php

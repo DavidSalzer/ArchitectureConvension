@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tyler\n"
+"POT-Creation-Date: 2014-04-03 17:08+0200\n"
+"PO-Revision-Date: 2014-07-31 13:07+0200\n"
+"Last-Translator: Stanko Metodiev <stanko@metodiew.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: he_IL\n"
+"X-Poedit-SearchPath-0: /var/www/Tyler\n"
+
+#: /var/www/Tyler/footer.php:22
+msgid "UP"
+msgstr "למעלה"
+
+#: /var/www/Tyler/404.php:4
+msgid "404 Not Found"
+msgstr "שגיאה 404"
+
+#: /var/www/Tyler/404.php:10
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Lo sentimos, pero la página que solicitó no pudo encontrarse. Puede que una "
+"búsqueda le ayude."
+
+#: /var/www/Tyler/comments.php:32
+msgid "Older Comments"
+msgstr "תגובות ישנות"
+
+#: /var/www/Tyler/comments.php:33
+msgid "Newer Comments"
+msgstr "תגובות חדשות"
+
+#: /var/www/Tyler/comments.php:42
+msgid "Comments are closed."
+msgstr "התגובות סגורות"
+
+#: /var/www/Tyler/comments.php:53
+msgid "NAME"
+msgstr "שם"
+
+#: /var/www/Tyler/comments.php:56
+msgid "EMAIL"
+msgstr "אימייל"
+
+#: /var/www/Tyler/comments.php:58
+msgid "NUMBER"
+msgstr "מספר"
+
+#: /var/www/Tyler/comments.php:60
+msgid "COMMENT"
+msgstr "תגובה"
+
+#: /var/www/Tyler/speakers.php:39
+msgid "View profile"
+msgstr "צפה בפרופיל"
+
+#: /var/www/Tyler/single-session.php:21 /var/www/Tyler/single-speaker.php:27
+#: /var/www/Tyler/schedule.php:31 /var/www/Tyler/schedule.php:46
+#: /var/www/Tyler/schedule.php:61
+msgid "All"
+msgstr "הכל"
+
+#: /var/www/Tyler/single-session.php:38
+msgid "Bookmark and Share"
+msgstr "Marcar página y compartir"
+
+#: /var/www/Tyler/single-session.php:50 /var/www/Tyler/single-speaker.php:70
+msgid "Location:"
+msgstr "מיקום:"
+
+#: /var/www/Tyler/single-session.php:51 /var/www/Tyler/single-speaker.php:71
+msgid "Date:"
+msgstr "תאריך:"
+
+#: /var/www/Tyler/single-session.php:52 /var/www/Tyler/single-speaker.php:72
+msgid "Time:"
+msgstr "שעה:"
+
+#: /var/www/Tyler/single-session.php:72
+msgid "Register to the session!"
+msgstr "הירשם למושב"
+
+#: /var/www/Tyler/single-speaker.php:37 /var/www/Tyler/single-speaker.php:87
+msgid "View full schedule"
+msgstr "צפה בלו\"ז המלא"
+
+#: /var/www/Tyler/single-speaker.php:39
+msgid "Related Sessions"
+msgstr "מושבים קשורים"
+
+#: /var/www/Tyler/single-speaker.php:74
+msgid "View session"
+msgstr "צפה במושב"
+
+#: /var/www/Tyler/category.php:26
+msgid "Nothing Found"
+msgstr "אין תוצאות"
+
+#: /var/www/Tyler/index.php:17
+msgid "REGISTER NOW"
+msgstr "הירשם עכשיו"
+
+#: /var/www/Tyler/index.php:25
+msgid "WHEN"
+msgstr "מתי"
+
+#: /var/www/Tyler/index.php:37
+msgid "WHERE"
+msgstr "איפה"
+
+#: /var/www/Tyler/header.php:48
+msgid "Toggle navigation"
+msgstr "Desactivar navegación"
+
+#: /var/www/Tyler/twitter.php:81
+msgid "Back"
+msgstr "חזור"
+
+#: /var/www/Tyler/schedule.php:28
+msgid "Filter by track"
+msgstr "סנן לפי מסלול"
+
+#: /var/www/Tyler/schedule.php:43
+msgid "Filter by location"
+msgstr "סנן לפי מיקום"
+
+#: /var/www/Tyler/schedule.php:58
+msgid "Filter by days"
+msgstr "סינון לפי ימים"
+
+#: /var/www/Tyler/functions.php:76
+msgid "Navigation Menu"
+msgstr "תפריט"
+
+#: /var/www/Tyler/functions.php:183
+msgid "Order"
+msgstr "סדר"
+
+#: /var/www/Tyler/functions.php:206 /var/www/Tyler/functions.php:209
+#: /var/www/Tyler/functions.php:212 /var/www/Tyler/functions.php:215
+#: /var/www/Tyler/functions.php:218
+msgid " ago"
+msgstr "לפני"
+
+#: /var/www/Tyler/functions.php:219
+msgid "on "
+msgstr "en"
+
+#: /var/www/Tyler/functions.php:226
+msgid "Register"
+msgstr "הירשם"
