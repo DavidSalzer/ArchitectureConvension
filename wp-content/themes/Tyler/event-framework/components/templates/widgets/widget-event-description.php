@@ -68,7 +68,7 @@
                         <span class="photo">
                             <img src="<?php echo get_template_directory_uri() . '/images/icon5.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="ועידות" title="ועידות">
                         </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">7 ועידות תוכן קצועיות בראשות 15 יושבי ראש</span></span></span>
+                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">ספריית חומרים עשירה ומפתיעה</span></span></span>
 
                     </a>
                 </div>
@@ -77,7 +77,7 @@
                         <span class="photo">
                             <img src="<?php echo get_template_directory_uri() . '/images/icon4.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="מרצים" title="מרצים">
                         </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">250 מרצים מומחים מהארץ ומו"ל!</span></span></span>
+                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">דוברים מובילים מעולמות העיצוב</span></span></span>
 
                     </a>
                 </div>
@@ -86,7 +86,7 @@
                         <span class="photo">
                             <img src="<?php echo get_template_directory_uri() . '/images/icon3.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="משתתפים" title="משתתפים">
                         </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">בהשתתפות 2500 בכירים מעולם הנדל"ן</span></span></span>
+                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">בהשתתפות כ-400 אדריכלים ומעצבים</span></span></span>
 
                     </a>
                 </div>
@@ -95,7 +95,7 @@
                         <span class="photo">
                             <img src="<?php echo get_template_directory_uri() . '/images/icon2.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="בילינג" title="בילינג">
                         </span>
-                        <span class="name" style="letter-spacing: -0.1px;"><span><span style="display:block">פיתוח קשרים עסקיים-חברתיים עם בכירי הנדל"ן</span></span></span>
+                        <span class="name" style="letter-spacing: -0.1px;"><span><span style="display:block">סדנאות מקצועיות ומפגשי נטוורקינג</span></span></span>
 
                     </a>
                 </div>
@@ -104,7 +104,7 @@
                         <span class="photo">
                             <img src="<?php echo get_template_directory_uri() . '/images/icon1.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="פנאי" title="פנאי">
                         </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">אירוח, בידור ופנאי בפורמט "הכל כלול"</span></span></span>
+                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">אירוח FULL BOARD והופעות חיות</span></span></span>
 
                     </a>
                 </div>

@@ -95,6 +95,12 @@
  * Extra small devices - Phones (<768px)
 */
 @media (max-width: 768px) {
+
+    #nadlan-conference .sessions .conferenc-type .session-inner {
+        padding: 2px 9px;
+        height: 91px;
+    }
+
     .main-session {
         width: 100%;
         float: none;

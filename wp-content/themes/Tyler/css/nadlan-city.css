@@ -202,18 +202,19 @@ header ul ul {
 
 .landing .btn-secondary, .sign-up-btn.btn-secondary {
     color: #123781;
-    border-color: #ffda00 !important;
+    border-color: #383838 !important;
     background-color: #ffda00;
 }
 
 .btn-secondary, .sign-up-btn.btn-secondary {
-    background-color: #ffda00;
+    background-color: #383838;
+    color: #fff;
 }
 
 .sign-up-btn.btn-secondary:hover, .landing .btn-secondary:hover, .sign-up-btn.btn-secondary:active, .landing .btn-secondary:active.sign-up-btn.btn-secondary:focus, .landing .btn-secondary:focus {
-    color: #123781 !important;
-    border-color: #ffe75c !important;
-    background-color: #ffe75c !important;
+    color: #fff !important;
+    border-color: #383838 !important;
+    background-color: #828282 !important;
 }
 
 header ul li.register a {
@@ -228,6 +229,9 @@ header ul li.register a {
 
 .main-text-img {
     margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .register-img {
@@ -361,20 +365,20 @@ header ul li.register a {
     padding-top: 1em;
 }
 
-#nadlan-conference .sessions .session .session-inner .speaker-title {
+#nadlan-conference .sessions .conferenc-type .session-inner .speaker-title {
     width: 100%;
     display: block;
     font-size: 13px;
 }
 
-#nadlan-conference .sessions .session .session-inner .speaker-name {
+#nadlan-conference .sessions .conferenc-type .session-inner .speaker-name {
     width: 100%;
     display: block;
     font-size: 18px;
 }
 
 
-#nadlan-conference .sessions .session .session-inner {
+#nadlan-conference .sessions .conferenc-type .session-inner {
     position: relative;
     display: block;
     padding: 15px 20px;
@@ -382,19 +386,30 @@ header ul li.register a {
     text-align: center;
     text-decoration: none;
     overflow: hidden;
-    background-color: transparent;
+    background-color: #fff;
     color: #000;
+    height: 110px;
 }
 
 .more-details {
     color: #fff;
     background: #ca2a1d;
     padding: 8px 0;
+    background: url('../images/red-details.jpg');
+    background-size: cover;
 }
 
-#nadlan-conference .sessions .session .session-inner a {
+
+
+#nadlan-conference .sessions .conferenc-type a {
     font-size: 18px;
-    color: #3a444e;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nadlan-conference .sessions .conferenc-type a:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 
 #nadlan-conference .speakers .speaker.featured .speaker-inner {
@@ -463,20 +478,22 @@ header ul li.register a {
     text-align: center;
 }
 
-#nadlan-conference .sessions .session {
-    margin: 0 0 40px 3%;
+#nadlan-conference .sessions .conferenc-type {
+    vertical-align: top;
+    margin-bottom: 25px;
+    /*margin: 0 0 40px 3%;
     width: 20%;
     padding: 0px;
-    vertical-align: top;
-    background: #fff;
+    
+    background: #fff;*/
 }
 
-#nadlan-conference .sessions .session .more {
+#nadlan-conference .sessions .conferenc-type .more {
     /*display: none;*/
     background-color: #00498f;
 }
 
-#nadlan-conference .sessions .session .title {
+#nadlan-conference .sessions .conferenc-type .title {
     color: #123781;
     margin-bottom: 0px;
     height: 55px;
@@ -509,14 +526,14 @@ header ul li.register a {
     height: 361px;
 }
 
-#nadlan-conference .sessions .session .speaker {
+#nadlan-conference .sessions .conferenc-type .speaker {
     height: 75px;
     width: 75px;
     margin: 8px 5px;
 }
 
 
-#nadlan-conference .sessions.condensed .session .session-inner {
+#nadlan-conference .sessions.condensed .conferenc-type .session-inner {
     /*border: 1px solid #123781;*/
 }
 
@@ -1073,6 +1090,23 @@ form.contact-us {
     display: none;
 }
 
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
 span.wpcf7-form-control-wrap textarea {
     height: 160px;
 }
@@ -1080,12 +1114,16 @@ span.wpcf7-form-control-wrap textarea {
 
 .wpcf7-form label {
     font-weight: normal;
+    font-size: 11px;
 }
 
 .wpcf7-submit {
-    background-color: #ca2a1d;
-    border-color: #ca2a1d;
-    color: #fff;
+    background: url('../images/send.png');
+    background-size: cover;
+    width: 278px;
+    height: 54px;
+    border: 0;
+    outline: 0;
 }
 
 .captch_input {
@@ -1099,6 +1137,7 @@ span.wpcf7-form-control-wrap textarea {
     margin: 0 0 1em !important;
     width: 15% !important;
 }
+
 
 .news-img {
     width: 650px;
@@ -1588,7 +1627,7 @@ header.sticky #menu-primary {
 .heading {
     position: relative;
     display: block;
-    background: #ca2a1d !important;
+    background: #ca2a1d;
     color: #fff;
     margin: 0 0 45px;
 }
@@ -1708,20 +1747,26 @@ header.sticky #menu-primary {
 }
 
 /* forms */
-input[type=text], textarea, input[type=email], input[type=tel], select  {
+input[type=text], textarea, input[type=email], input[type=tel], select {
     font-size: 18px;
-    background: #f1f1f1;
+    background: #000;
     border: none;
     box-sizing: border-box;
     padding: 0.9em;
     border-radius: 2px;
     outline: none;
     margin: 0 0 1em;
-    width: 30%;
+    color: #fff;
 }
 
+select {
+    width: 95%;
+}
+
+
+
 input.placeholder, textarea.placeholder {
-    color: #6d6d6d;
+    color: #fff;
 }
 
 /* buttons */
@@ -3415,6 +3460,11 @@ form.contact-us textarea {
     display: none;
 }
 
+.heading.new-convention {
+    background: url('../images/strip-red.jpg');
+    background-size: cover;
+}
+
 /*
  FOOTER
  ------- */
@@ -3634,7 +3684,8 @@ MEDIA CUSTOMIZATION
 #tile_media .btn-check.btn-primary:hover {
     color: #fff;
     border: none;
-    background: #ca2a1d;
+    background: url('../images/gallery-btn.jpg');
+    background-size: cover;
 }
 
 /*#tile_media .btn-check:nth-child(1) {
@@ -3650,7 +3701,8 @@ MEDIA CUSTOMIZATION
 }*/
 
 #tile_media .btn-check.active {
-    background: #ca2a1d;
+    background: url('../images/gallery-btn.jpg');
+    background-size: cover;
     color: #fff !important;
 }
 

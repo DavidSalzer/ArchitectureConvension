@@ -104,7 +104,7 @@
                     <a href="<?php echo esc_url( $ef_options['ef_pinterest'], $esc_url_protocols ); ?>" target="_blank" title="Pinterest"><i class="icon-pinterest"></i></a><?php
                         }
                     ?>
-                    <a href="https://www.youtube.com/channel/UCuoao-kwDkyvhFga8Jf6G6Q" target="_blank" title="Youtube" class="youtube"><i class="icon-youtube"></i></a>
+                    <a href="https://www.youtube.com/channel/UCImzzV6XC1B1QOOaEx7Ug3g" target="_blank" title="Youtube" class="youtube"><i class="icon-youtube"></i></a>
                 </div>
             </div>
         </div>

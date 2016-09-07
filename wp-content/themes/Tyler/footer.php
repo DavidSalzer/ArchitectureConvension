@@ -1,7 +1,7 @@
 <?php
 $ef_options = EF_Event_Options::get_theme_options();
 ?>
-
+<div style="background: #e7e7e7; padding: 25px 0;"><img src="<?php echo get_template_directory_uri() . '/images/hakdimu.png'; ?>" class="main-text-img" style="margin-bottom: 0;"/></div>
 <footer>
     <?php wp_nav_menu( array('menu' => 'links' )); ?>
     <div class="container">
