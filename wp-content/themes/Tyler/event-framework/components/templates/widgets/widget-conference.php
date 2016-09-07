@@ -71,10 +71,10 @@
 
                     <div class="conferenc-type col-xs-6 col-sm-3">
                         <div class="session-inner">
-                            <span class="speaker-name">החומרים שמהם עשויה ההשראה</span>
+                            <span class="speaker-name">ההשראה מתחילה מהבית</span>
                             <span class="speaker-title"></span>
                         </div>
-                        <a href="http://designcity.org.il/%D7%94%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D-%D7%A9%D7%9E%D7%94%D7%9D-%D7%A2%D7%A9%D7%95%D7%99%D7%94-%D7%94%D7%94%D7%A9%D7%A8%D7%90%D7%94/"><div class="more-details">לפרטים נוספים ></div><a>
+                        <a href="http://designcity.org.il/%D7%94%D7%94%D7%A9%D7%A8%D7%90%D7%94-%D7%9E%D7%AA%D7%97%D7%99%D7%9C%D7%94-%D7%9E%D7%94%D7%91%D7%99%D7%AA/"><div class="more-details">לפרטים נוספים ></div><a>
                     </div>
 
                     <div class="conferenc-type col-xs-6 col-sm-3">
@@ -120,14 +120,14 @@
                         <a href="http://designcity.org.il/%D7%94%D7%94%D7%A9%D7%A8%D7%90%D7%94-%D7%91%D7%97%D7%A1%D7%95%D7%AA-%D7%94%D7%98%D7%A8%D7%A0%D7%93/"><div class="more-details">לפרטים נוספים ></div><a>
                     </div>
 
+                    
                     <div class="conferenc-type col-xs-6 col-sm-3">
                         <div class="session-inner">
-                            <span class="speaker-name">ההשראה מתחילה מהבית</span>
+                            <span class="speaker-name">החומרים שמהם עשויה ההשראה</span>
                             <span class="speaker-title"></span>
                         </div>
-                        <a href="http://designcity.org.il/%D7%94%D7%94%D7%A9%D7%A8%D7%90%D7%94-%D7%9E%D7%AA%D7%97%D7%99%D7%9C%D7%94-%D7%9E%D7%94%D7%91%D7%99%D7%AA/"><div class="more-details">לפרטים נוספים ></div><a>
+                        <a href="http://designcity.org.il/%D7%94%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D-%D7%A9%D7%9E%D7%94%D7%9D-%D7%A2%D7%A9%D7%95%D7%99%D7%94-%D7%94%D7%94%D7%A9%D7%A8%D7%90%D7%94/"><div class="more-details">לפרטים נוספים ></div><a>
                     </div>
-
                 </div>
 
 

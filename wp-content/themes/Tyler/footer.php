@@ -45,6 +45,7 @@ $ef_options = EF_Event_Options::get_theme_options();
 
 <script>
 $( document ).ready(function() {
+	
 	var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE");
 	
