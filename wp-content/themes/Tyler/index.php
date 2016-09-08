@@ -4,6 +4,12 @@ get_header();
 // Get Theme Options
 //$ef_options = get_option( 'eventframework' );
 $ef_options = EF_Event_Options::get_theme_options();
+
+    $string = $_SERVER['REQUEST_URI'];
+    $newString = substr($string, 1);
+    $registerUrl = 'designcity.org.il/%D7%94%D7%A8%D7%A9%D7%9E%D7%94-%D7%9C%D7%95%D7%A2%D7%99%D7%93%D7%AA-%D7%94%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%99%D7%9D/' . $newString;
+   
+
 ?>
 <!-- LANDING - BIG PICTURE -->
 
@@ -23,7 +29,7 @@ $ef_options = EF_Event_Options::get_theme_options();
 			$reg_widget = reset( $widget_ef_registration );
 			if( $reg_widget['registrationshowcalltoaction'] == 1 ) { ?>
             	<!--<a href="<?php echo home_url( '/' ); ?>?page_id=48" class="btn btn-lg btn-secondary sign-up-btn">ההרשמה תחל בקרוב</a>-->
-				<a href="designcity.org.il/%D7%94%D7%A8%D7%A9%D7%9E%D7%94-%D7%9C%D7%95%D7%A2%D7%99%D7%93%D7%AA-%D7%94%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%99%D7%9D/" class="btn btn-lg btn-secondary sign-up-btn">רישום לועידת האדריכלות</a>
+				<a href="<?php echo $registerUrl;?>" class="btn btn-lg btn-secondary sign-up-btn">רישום לועידת האדריכלות</a>
         	<?php 
 			}
 		} ?>

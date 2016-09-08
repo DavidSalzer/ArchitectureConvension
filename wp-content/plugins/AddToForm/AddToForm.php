@@ -20,17 +20,22 @@ function getRealIP() {
     return $_SERVER['REMOTE_ADDR'];
 }
 
-add_action('wpcf7_before_send_mail', 'sendDetailsToBmbyForm',10,1);
-
-function sendDetailsToBmbyForm($form){
+function getMedia() {
     $string = $_SERVER['REQUEST_URI'];
     $newString = (substr($string, strpos($string, "?MediaTitle=")+12))?substr($string, strpos($string, "?MediaTitle=")+12):'';
     $mediaTitle = (substr($newString, 0, strpos($newString, "&")))?substr($newString, 0, strpos($newString, "&")):'';
         if ($mediaTitle=='') {
     $mediaTitle = 'Design Site';
     }
+ return $mediaTitle;
+}
+
+add_action('wpcf7_before_send_mail', 'sendDetailsToBmbyForm',10,1);
+
+function sendDetailsToBmbyForm($form){
     
-    $allowMail = isset($_POST['allowMail'])? 1 : 0; 
+    
+    $allowMail = isset($_POST['allowMail'])? 0 : 2; 
     
 	$sendObj = array (
 		'Fname'=> $_POST['fullName'],
@@ -40,11 +45,10 @@ function sendDetailsToBmbyForm($form){
 		'Email'=> $_POST['email'],
         'AllowedMail' => $allowMail,
         'IP'=> getRealIP(),
-		'MediaTitle' => $mediaTitle,
+		'MediaTitle' => getMedia(),
 		'ProjectID' => '4093',
 		'Password' => 'kfa0509',
 	 );
-
 
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL,"http://www.bmby.com/shared/AddClient/index.php");
