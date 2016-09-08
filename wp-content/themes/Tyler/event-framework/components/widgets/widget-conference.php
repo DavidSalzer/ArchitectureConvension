@@ -60,27 +60,127 @@
 
         <div id="nadlan-conference">
             <div class="sessions condensed">
+                                    <!--<div class="session">
+                                        <div class="session-inner">
+                                            <span class="speakers-thumbs speakers-list">
+                                                <a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91" class="speaker  featured">
+                                                    <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                    
+                                                </a>
+                                            </span>
+                                            <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91">דפנה הרלב</a></span>
+                                            <span class="speaker-title title-mobile">מנכ"ל</span>
+                                            <span class="speaker-title title-mobile">קבוצת אביב</span>
+                                            <a href="" class="speaker-title">תחום: מגורים</a>
+                    
+                                        </div>
+                                    </div>-->
+                                   
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
-                            <a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91" class="speaker  featured">
-                                <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
 
-                            </a>
+                            </span>
                         </span>
-                        <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91">דפנה הרלב</a></span>
-                        <span class="speaker-title title-mobile">מנכ"ל</span>
-                        <span class="speaker-title title-mobile">קבוצת אביב</span>
-                        <a href="" class="speaker-title">תחום: מגורים</a>
+                        <span class="speaker-name"><span>מיכי סתר</span></span>
+                        <span class="speaker-title title-mobile">סתר אדריכלים</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>מירי בלבול</span></span>
+                        <span class="speaker-title title-mobile">סקולה</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>אלון ברנוביץ'	</span></span>
+                        <span class="speaker-title title-mobile">BARANOWITZ + KRONENBERG</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>יואב מסר</span></span>
+                        <span class="speaker-title title-mobile">יואב מסר אדריכלים</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>מיכאל אזולאי</span></span>
+                        <span class="speaker-title title-mobile">סטודיו מיכאל אזולאי</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>יוני מונג'ק</span></span>
+                        <span class="speaker-title title-mobile">יוני מונג'ק אדריכלות</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>פיצו קדם</span></span>
+                        <span class="speaker-title title-mobile">פיצו קדם אדריכלים</span>
+
 
                     </div>
                 </div>
             </div>
-
         </div>
 
-
     </div>
+
+
+</div>
 </div>
 <?php
     
