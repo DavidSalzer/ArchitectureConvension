@@ -2,34 +2,34 @@
     // Exit if accessed directly
     if ( !defined( 'ABSPATH' ) ) exit;
     /**
-     * Register the Conference Widget
+     * Register the design world Widget
      * 
      * @package Event Framework
      * @since 1.0.0
      */
     /**
-     * Ef_Conference_Widget Widget Class.
+     * Ef_Design_Widget Widget Class.
      * 
      * 
-     * @package Conference
+     * @package Design
      * @since 1.0.0
      */
-    class Ef_Conference_Widget extends WP_Widget {
+    class Ef_Design_Widget extends WP_Widget {
         /**
          * Contact Widget setup.
          * 
          * @package Event Framework
          * @since 1.0.0
          */
-        function Ef_Conference_Widget() {
+        function Ef_Design_Widget() {
     
             $widget_name = EF_Framework_Helper::get_widget_name();
     
             /* Widget settings. */
-            $widget_ops = array( 'classname' => 'ef_conference', 'description' => __( 'Shows the conference', 'dxef' ) );
+            $widget_ops = array( 'classname' => 'ef_design', 'description' => __( 'Shows the design', 'dxef' ) );
     
             /* Create the widget. */
-            $this->WP_Widget( 'ef_conference', $widget_name . __( ' Conference', 'dxef' ), $widget_ops );
+            $this->WP_Widget( 'ef_design', $widget_name . __( ' Design', 'dxef' ), $widget_ops );
     
         }
     
@@ -44,21 +44,21 @@
          */
         function widget( $args, $instance ) {
     
-            $conferencetitle		= isset( $instance['conferencetitle'] ) ? $instance['conferencetitle'] : '';
-            $conferencesubtitle	= isset( $instance['conferencesubtitle'] ) ? $instance['conferencesubtitle'] : '';
-            $conferencecontent	= isset( $instance['conferencecontent'] ) ? $instance['conferencecontent'] : '';
+            $designtitle		= isset( $instance['designtitle'] ) ? $instance['designtitle'] : '';
+            $designsubtitle	= isset( $instance['designsubtitle'] ) ? $instance['designsubtitle'] : '';
+            $designcontent	= isset( $instance['designcontent'] ) ? $instance['designcontent'] : '';
     
             echo stripslashes( $args['before_widget'] );
 ?>
 
 <!-- TEXT -->
-<div class="tile_conference_wrap main-title">
-    <h2><?php echo stripslashes($conferencetitle); ?></h2>
-    <h3><?php echo stripslashes($conferencesubtitle); ?></h3>
-    <div id="tile_conference" class="container widget">
+<div class="tile_design_wrap main-title">
+    <h2><?php echo stripslashes($designtitle); ?></h2>
+    <h3><?php echo stripslashes($designsubtitle); ?></h3>
+    <div id="tile_design" class="container widget">
 
 
-        <div id="nadlan-conference">
+        <div id="nadlan-design">
             <div class="sessions condensed">
                 <div class="row" style="margin-bottom: 25px;">
                     <div class="conferenc-type col-xs-6 col-sm-3">
@@ -179,9 +179,9 @@
         $instance = $new_instance;
     
         /* Input fields */
-        $instance['conferencetitle']		= strip_tags( $new_instance['conferencetitle'] );
-        $instance['conferencesubtitle']	= strip_tags( $new_instance['conferencesubtitle'] );
-        $instance['conferencecontent']	= $new_instance['conferencecontent'];
+        $instance['designtitle']		= strip_tags( $new_instance['designtitle'] );
+        $instance['designsubtitle']	= strip_tags( $new_instance['designsubtitle'] );
+        $instance['designcontent']	= $new_instance['designcontent'];
     
         return $instance;
     
@@ -198,23 +198,23 @@
      */
     function form( $instance ) {
     
-        $conferencetitle		= isset( $instance['conferencetitle'] ) ? $instance['conferencetitle'] : '';
-        $conferencesubtitle	= isset( $instance['conferencesubtitle'] ) ? $instance['conferencesubtitle'] : '';
-        $conferencecontent	= isset( $instance['conferencecontent'] ) ? $instance['conferencecontent'] : '';
+        $designtitle		= isset( $instance['designtitle'] ) ? $instance['designtitle'] : '';
+        $designsubtitle	= isset( $instance['designsubtitle'] ) ? $instance['designsubtitle'] : '';
+        $designcontent	= isset( $instance['designcontent'] ) ? $instance['designcontent'] : '';
 ?>
 
 <em><?php _e('Title:', 'dxef'); ?></em><br />
-<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'conferencetitle' ); ?>" value="<?php echo stripslashes($conferencetitle); ?>" />
+<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'designtitle' ); ?>" value="<?php echo stripslashes($designtitle); ?>" />
 <br /><br />
 <em><?php _e('Subtitle:', 'dxef'); ?></em><br />
-<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'conferencesubtitle' ); ?>" value="<?php echo stripslashes($conferencesubtitle); ?>" />
+<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'designsubtitle' ); ?>" value="<?php echo stripslashes($designsubtitle); ?>" />
 <br /><br />
 <em><?php _e('Content:', 'dxef'); ?></em><br />
-<textarea id="eventdescriptioncontent" name="<?php echo $this->get_field_name( 'conferencecontent' ); ?>" class="widefat" rows="10"><?php echo esc_html($conferencecontent);?></textarea>
+<textarea id="eventdescriptioncontent" name="<?php echo $this->get_field_name( 'designcontent' ); ?>" class="widefat" rows="10"><?php echo esc_html($designcontent);?></textarea>
 <br /><br />
 <input type="hidden" name="submitted" value="1" /><?php
     
         }
     }
     //Register Widget
-    register_widget( 'Ef_Conference_Widget' );
+    register_widget( 'Ef_Design_Widget' );

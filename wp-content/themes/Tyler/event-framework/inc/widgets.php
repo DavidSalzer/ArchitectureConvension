@@ -20,6 +20,7 @@ include_once( EF_COMPONENTS_DIR . 'widgets/widget-footer-text-columns.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-comments.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-conference.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-concert.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-design-world.php' );
 
 // Multievent widgets file
 if ( current_theme_supports( 'multievent' ) ) {

@@ -359,57 +359,40 @@ header ul li.register a {
 
 /********************nadlan-conference********************/
 
-.tile_conference_wrap {
+.tile_conference_wrap, .tile_design_wrap {
     width: 100%;
-    background: #e7e7e7;
+    background: #e5e5e5;
     padding-top: 1em;
 }
 
-#nadlan-conference .sessions .conferenc-type .session-inner .speaker-title {
+#nadlan-conference .sessions .session .session-inner .speaker-title {
     width: 100%;
     display: block;
     font-size: 13px;
 }
 
-#nadlan-conference .sessions .conferenc-type .session-inner .speaker-name {
+#nadlan-conference .sessions .session .session-inner .speaker-name {
     width: 100%;
     display: block;
     font-size: 18px;
 }
 
 
-#nadlan-conference .sessions .conferenc-type .session-inner {
+#nadlan-conference .sessions .session .session-inner {
     position: relative;
     display: block;
-    padding: 15px 20px;
+    padding: 0px;
     /*border-radius: 4px;*/
     text-align: center;
     text-decoration: none;
     overflow: hidden;
-    background-color: #fff;
-    color: #000;
-    height: 110px;
+    background-color: transparent;
+    color: #3a444e;
 }
 
-.more-details {
-    color: #fff;
-    background: #ca2a1d;
-    padding: 8px 0;
-    background: url('../images/red-details.jpg');
-    background-size: cover;
-}
-
-
-
-#nadlan-conference .sessions .conferenc-type a {
+#nadlan-conference .sessions .session .session-inner a {
     font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-}
-
-#nadlan-conference .sessions .conferenc-type a:hover {
-    text-decoration: underline;
-    color: #fff;
+    color: #3a444e;
 }
 
 #nadlan-conference .speakers .speaker.featured .speaker-inner {
@@ -478,22 +461,19 @@ header ul li.register a {
     text-align: center;
 }
 
-#nadlan-conference .sessions .conferenc-type {
-    vertical-align: top;
-    margin-bottom: 25px;
-    /*margin: 0 0 40px 3%;
-    width: 20%;
+#nadlan-conference .sessions .session {
+    margin: 0 0 30px 0;
+    width: 12%;
     padding: 0px;
-    
-    background: #fff;*/
+    vertical-align: top;
 }
 
-#nadlan-conference .sessions .conferenc-type .more {
+#nadlan-conference .sessions .session .more {
     /*display: none;*/
     background-color: #00498f;
 }
 
-#nadlan-conference .sessions .conferenc-type .title {
+#nadlan-conference .sessions .session .title {
     color: #123781;
     margin-bottom: 0px;
     height: 55px;
@@ -526,14 +506,192 @@ header ul li.register a {
     height: 361px;
 }
 
-#nadlan-conference .sessions .conferenc-type .speaker {
+#nadlan-conference .sessions .session .speaker {
     height: 75px;
     width: 75px;
     margin: 8px 5px;
 }
 
 
-#nadlan-conference .sessions.condensed .conferenc-type .session-inner {
+#nadlan-conference .sessions.condensed .session .session-inner {
+    /*border: 1px solid #123781;*/
+}
+
+
+/********************nadlan-design********************/
+
+
+#nadlan-design .sessions .conferenc-type .session-inner .speaker-title {
+    width: 100%;
+    display: block;
+    font-size: 13px;
+}
+
+#nadlan-design .sessions .conferenc-type .session-inner .speaker-name {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+}
+
+
+#nadlan-confedesignrence .sessions .conferenc-type .session-inner {
+    position: relative;
+    display: block;
+    padding: 15px 20px;
+    /*border-radius: 4px;*/
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #fff;
+    color: #000;
+    height: 110px;
+}
+
+.more-details {
+    color: #fff;
+    background: #ca2a1d;
+    padding: 8px 0;
+    background: url('../images/red-details.jpg');
+    background-size: cover;
+}
+
+
+
+#nadlan-design .sessions .conferenc-type a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nadlan-design .sessions .conferenc-type a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#nadlan-design .speakers .speaker.featured .speaker-inner {
+    color: #ffda00;
+}
+
+
+
+#nadlan-design .speakers .speaker .speaker-inner .name {
+    color: #034c90;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#nadlan-design .speakers .speaker.featured .speaker-inner:hover {
+    color: #fff;
+}
+
+#nadlan-design .speakers .speaker .speaker-inner:hover:before {
+    opacity: 1;
+    background: #fff;
+}
+
+#nadlan-design .speakers .speaker.featured .speaker-inner:after {
+    background: none;
+}
+
+#nadlan-design .speakers .featured .photo img {
+    /*border-color: #fff;
+    box-shadow: 0px 0px 0px 2px #fff;*/
+}
+
+#nadlan-design .speakers .speaker {
+    width: 200px;
+    padding: 0 10px;
+}
+
+#nadlan-design .speakers .speaker .speaker-inner {
+    height: 220px;
+}
+
+#nadlan-design .speakers .photo {
+    width: 200px;
+    height: 86px;
+}
+
+#nadlan-design .speakers .photo img {
+    max-width: 100%;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+#nadlan-design .speakers .featured .photo img {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+
+#nadlan-design .speakers {
+    margin-bottom: 40px;
+}
+
+#nadlan-design .sessions {
+    text-align: center;
+}
+
+#nadlan-design .sessions .conferenc-type {
+    vertical-align: top;
+    margin-bottom: 25px;
+    /*margin: 0 0 40px 3%;
+    width: 20%;
+    padding: 0px;
+    
+    background: #fff;*/
+}
+
+#nadlan-design .sessions .conferenc-type .more {
+    /*display: none;*/
+    background-color: #00498f;
+}
+
+#nadlan-design .sessions .conferenc-type .speaker-name {
+    color: #000;
+    margin-bottom: 0px;
+    height: 80px;
+    background: #fff;
+    padding: 10px;
+}
+
+#nadlan-design .speakers-thumbs {
+    height: auto;
+    margin: 0;
+}
+
+.main-session {
+    width: 25%;
+    float: right;
+}
+
+.sub-session {
+    width: 75%;
+    float: right;
+}
+
+#nadlan-design > div > div.main-session > div.tall-session {
+    width: 100%;
+}
+
+#nadlan-design > div > div.sub-session > div.third {
+    width: 33.3%;
+}
+
+#nadlan-design > div > div.main-session > div > div > span.speakers-thumbs.speakers-list {
+    height: 361px;
+}
+
+#nadlan-design .sessions .conferenc-type .speaker {
+    height: 75px;
+    width: 75px;
+    margin: 8px 5px;
+}
+
+
+#nadlan-design .sessions.condensed .conferenc-type .session-inner {
     /*border: 1px solid #123781;*/
 }
 
