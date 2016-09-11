@@ -86,7 +86,7 @@ body.home footer {
 }
 
 html, body {
-    font-family: 'Open Sans Hebrew';
+    font-family: 'Open Sans Hebrew' !important;
 }
 
 body, header {
@@ -202,19 +202,77 @@ header ul ul {
 
 .landing .btn-secondary, .sign-up-btn.btn-secondary {
     color: #123781;
-    border-color: #383838 !important;
+    border-color: #ffda00 !important;
     background-color: #ffda00;
 }
 
 .btn-secondary, .sign-up-btn.btn-secondary {
-    background-color: #383838;
-    color: #fff;
+    background-color: #ffda00;
+    color: #123781;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-moz-keyframes flash {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.blink_me {
+    background: #ffda00;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    //Firefox 1+ -webkit-animation-name: flash;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    //Safari 3-4 -moz-animation-name: flash;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
 }
 
 .sign-up-btn.btn-secondary:hover, .landing .btn-secondary:hover, .sign-up-btn.btn-secondary:active, .landing .btn-secondary:active.sign-up-btn.btn-secondary:focus, .landing .btn-secondary:focus {
-    color: #fff !important;
-    border-color: #383838 !important;
-    background-color: #828282 !important;
+    color: #123781 !important;
+    border-color: #ffda00 !important;
+    background-color: #ffda00 !important;
 }
 
 header ul li.register a {
@@ -1296,6 +1354,12 @@ span.wpcf7-form-control-wrap textarea {
     width: 15% !important;
 }
 
+div.wpcf7-mail-sent-ok {
+    font-size: 24px;
+    font-weight: bold;
+    border: none !important;
+    text-align: center;
+}
 
 .news-img {
     width: 650px;

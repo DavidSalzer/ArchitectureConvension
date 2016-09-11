@@ -21,12 +21,20 @@
             <div class="col-xs-12 col-sm-6">
                 <?php echo do_shortcode( '[contact-form-7 id="251130" title="הרשמה לועידה"]' ); ?>
             </div>
+            <div class="col-xs-12 col-sm-6 visible-xs">
+                <a href="tel:037230288">
+                    <div class="row" style="margin-bottom: 40px; text-align: center;">
+                        <img src="<?php echo get_template_directory_uri() . '/images/details-lid.png'; ?>" />
+                        <img src="<?php echo get_template_directory_uri() . '/images/logo_mercaz_p.png'; ?>" />
+                    </div>
+                </a>
+            </div>
             <div class="col-xs-12 col-sm-6">
                 <img src="<?php echo get_template_directory_uri() . '/images/logo.png'; ?>" />
             </div>
 
         </div><!-- end .row -->
-        <a href="tel:037230288">
+        <a href="tel:037230288" class="hidden-xs">
             <div class="row" style="margin-bottom: 40px; text-align: center;">
                 <img src="<?php echo get_template_directory_uri() . '/images/details-lid.png'; ?>" />
                 <img src="<?php echo get_template_directory_uri() . '/images/logo_mercaz_p.png'; ?>" />

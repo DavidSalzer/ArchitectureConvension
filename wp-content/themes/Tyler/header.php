@@ -101,7 +101,7 @@ var google_remarketing_only = true;
                         
                     </div>
                     <div id="navbar" class="navbar-collapse collapse text-fit">
-                        <a class="navbar-brand pull-right hidden-xs hidden-sm" href="http://www.building.org.il/">
+                        <a class="navbar-brand pull-right hidden-xs hidden-sm" href="<?php echo esc_url(home_url()); ?>">
                             <img src="<?php echo get_template_directory_uri() . '/images/logo-mercaz.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
                         </a>
                         <?php
