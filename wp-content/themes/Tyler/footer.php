@@ -1,8 +1,10 @@
 <?php
     $ef_options = EF_Event_Options::get_theme_options();
 ?>
+
 <div style="background: #e7e7e7; padding: 25px 0;"><a href="http://designcity.org.il/%D7%94%D7%A8%D7%A9%D7%9E%D7%94-%D7%9C%D7%95%D7%A2%D7%99%D7%93%D7%AA-%D7%94%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%99%D7%9D/"><img src="<?php echo get_template_directory_uri() . '/images/hakdimu.png'; ?>" class="main-text-img" style="margin-bottom: 0;" /></a></div>
 <footer>
+    <div style="text-align: center; margin-bottom: 20px;"><img class="img-logo" src="<?php echo get_template_directory_uri() . '/images/kadira_logo.png'; ?>" alt="הדירה - שיפוץ ובנייה" title="הדירה - שיפוץ ובנייה" /></div>
     <?php wp_nav_menu( array('menu' => 'links' )); ?>
     <div class="container">
         <div class="row row-sm">
@@ -62,5 +64,5 @@
         });
 
 </script>
-/body>
-/html>
+</body>
+</html>

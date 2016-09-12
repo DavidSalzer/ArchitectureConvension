@@ -946,7 +946,9 @@
     }
 
     header #logo img, header.sticky #logo img {
-        max-height: 43px;
+        width: 130px !important;
+        max-width: 130px !important;
+        margin-top: 0 !important;
     }
 
     .navbar-toggle .icon-bar {

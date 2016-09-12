@@ -57,22 +57,23 @@ n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-fbq('init', '550599175145237');
+fbq('init', '608949419188799');
 fbq('track', "PageView");</script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=550599175145237&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=608949419188799&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
         
     </head>
     <body <?php body_class(); ?>>
-        <!-- Google Code for Architects Conference website -->
+
+        <!-- Google Code for Architect conference -->
 <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
 <script type="text/javascript">
 /* <![CDATA[ */
-var google_conversion_id = 875252778;
-var google_conversion_label = "PsSPCLr95WkQqpitoQM";
+var google_conversion_id = 1042074714;
+var google_conversion_label = "LIpACOS5kmoQ2pjz8AM";
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
@@ -81,13 +82,13 @@ var google_remarketing_only = true;
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/875252778/?value=1.00&amp;currency_code=ILS&amp;label=PsSPCLr95WkQqpitoQM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1042074714/?value=1.00&amp;currency_code=ILS&amp;label=LIpACOS5kmoQ2pjz8AM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
         <div id="not-seport-html5"></div>
         <header class="nav transition">
             <a class="visible-xs visible-sm" href="<?php echo esc_url(home_url()); ?>" id="logo">
-                  <img src="<?php echo get_template_directory_uri() . '/images/logo-mercaz.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
+                  <img class="img-logo" src="<?php echo get_template_directory_uri() . '/images/logo_new.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
              </a>
              <nav class="navbar" role="navigation">
                 <div class="container">
@@ -102,7 +103,7 @@ var google_remarketing_only = true;
                     </div>
                     <div id="navbar" class="navbar-collapse collapse text-fit">
                         <a class="navbar-brand pull-right hidden-xs hidden-sm" href="<?php echo esc_url(home_url()); ?>">
-                            <img src="<?php echo get_template_directory_uri() . '/images/logo-mercaz.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
+                            <img class="img-logo" src="<?php echo get_template_directory_uri() . '/images/logo_new.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
                         </a>
                         <?php
                         wp_nav_menu(array(

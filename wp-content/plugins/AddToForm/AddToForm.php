@@ -43,6 +43,7 @@ function sendDetailsToBmbyForm($form){
 		'Job'=> $_POST['position'],
 		'Phone'=> $_POST['tel'],
 		'Email'=> $_POST['email'],
+        'Area'=> $_POST['area'],
         'AllowedMail' => $allowMail,
         'IP'=> getRealIP(),
 		'MediaTitle' => getMedia(),

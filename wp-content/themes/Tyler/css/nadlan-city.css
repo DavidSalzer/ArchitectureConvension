@@ -1822,6 +1822,11 @@ header.sticky #menu-primary {
     margin-top: 7px;
 }
 
+.img-logo {
+    width: 130px !important;
+    max-width: 130px !important;
+    margin-top: -9px !important;
+}
 
 
 @media (min-width: 1200px) {
@@ -1982,7 +1987,7 @@ input[type=text], textarea, input[type=email], input[type=tel], select {
 }
 
 select {
-    width: 95%;
+    width: 87%;
 }
 
 
@@ -3693,7 +3698,7 @@ form.contact-us textarea {
 footer {
     position: relative;
     z-index: 30;
-    margin-top: 2em;
+    /*margin-top: 2em;*/
     border-top: 1px solid #d3d3d3;
     background: #393939;
     padding-top: 48px;

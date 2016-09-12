@@ -53,8 +53,8 @@
 
 <!-- TEXT -->
 <div class="tile_description_wrap main-title">
-    <h2><?php echo stripslashes($eventdescriptiontitle); ?></h2>
-     <h3><?php echo stripslashes($eventdescriptionsubtitle); ?></h3>
+    <h2><?php echo stripslashes($eventdescriptiontitle); ?><br/><?php echo stripslashes($eventdescriptionsubtitle); ?></h2>
+     <h3></h3>
     <div id="tile_description" class="container widget">
         
 

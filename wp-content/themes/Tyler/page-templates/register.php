@@ -11,8 +11,8 @@
 ?>
 <div class="heading new-convention" style="margin-bottom: 0;">
     <div class="container">
-        <h1><?php the_title() ?></h1>
-
+        <h1 class="hidden-xs"><?php the_title() ?></h1>
+        <h1 class="visible-xs">השאירו פרטיכם ונציגינו יצרו עמכם קשר בהקדם</h1>
     </div><!-- end .container -->
 </div> <!-- end .heading -->
 <div style="width:100%; background: #e7e7e7; padding-top: 35px;">
