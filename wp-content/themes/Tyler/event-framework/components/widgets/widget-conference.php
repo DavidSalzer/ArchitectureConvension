@@ -108,11 +108,11 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------------------------------------smallBW.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>אלון ברנוביץ'	</span></span>
+                        <span class="speaker-name"><span>אירנה קרוננברג ואלון ברנוביץ	</span></span>
                         <span class="speaker-title title-mobile">BARANOWITZ + KRONENBERG</span>
 
 
@@ -174,6 +174,35 @@
 
                     </div>
                 </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLYR.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>אורלי רובינזון</span></span>
+                        <span class="speaker-title title-mobile">יוצרת ספרי עיצוב ואדריכלות</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>רות פקר</span></span>
+                        <span class="speaker-title title-mobile">לוין-פקר אדריכלים</span>
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
 
