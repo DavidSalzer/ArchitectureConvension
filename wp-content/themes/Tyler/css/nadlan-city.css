@@ -3476,8 +3476,12 @@ form.contact-us textarea {
     max-width: 100%;
 }
 
-.sponsors-lg .sponsor {
+.sponsors-lg.sponsor-large .sponsor {
     width: 33.3%;
+}
+
+.sponsors-lg.sponsor-small .sponsor {
+    width: 25%;
 }
 
 .sponsors-md .sponsor {

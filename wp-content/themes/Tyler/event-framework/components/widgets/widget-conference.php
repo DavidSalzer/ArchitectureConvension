@@ -64,11 +64,11 @@
                                         <div class="session-inner">
                                             <span class="speakers-thumbs speakers-list">
                                                 <a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91" class="speaker  featured">
-                                                    <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                                    <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="" title="">
                     
                                                 </a>
                                             </span>
-                                            <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91">דפנה הרלב</a></span>
+                                            <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91"></a></span>
                                             <span class="speaker-title title-mobile">מנכ"ל</span>
                                             <span class="speaker-title title-mobile">קבוצת אביב</span>
                                             <a href="" class="speaker-title">תחום: מגורים</a>
@@ -80,7 +80,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------.png" class="attachment-post-thumbnail wp-post-image" alt="מיכי סתר" title="מיכי סתר">
 
                             </span>
                         </span>
@@ -94,7 +94,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------.png" class="attachment-post-thumbnail wp-post-image" alt="מירי בלבול" title="מירי בלבול">
 
                             </span>
                         </span>
@@ -108,7 +108,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------------------------------------smallBW.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------------------------------------smallBW.jpg" class="attachment-post-thumbnail wp-post-image" alt="ירנה קרוננברג ואלון ברנוביץ" title="ירנה קרוננברג ואלון ברנוביץ">
 
                             </span>
                         </span>
@@ -122,7 +122,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יואב מסר" title="יואב מסר">
 
                             </span>
                         </span>
@@ -136,7 +136,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="מיכאל אזולאי" title="מיכאל אזולאי">
 
                             </span>
                         </span>
@@ -150,7 +150,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יוני מונג'ק" title="יוני מונג'ק">
 
                             </span>
                         </span>
@@ -164,7 +164,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="פיצו קדם" title="פיצו קדם">
 
                             </span>
                         </span>
@@ -178,7 +178,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLYR.png" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLYR.png" class="attachment-post-thumbnail wp-post-image" alt="אורלי רובינזון" title="אורלי רובינזון">
 
                             </span>
                         </span>
@@ -192,7 +192,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="דפנה הרלב" title="דפנה הרלב">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="רות פקר" title="רות פקר">
 
                             </span>
                         </span>

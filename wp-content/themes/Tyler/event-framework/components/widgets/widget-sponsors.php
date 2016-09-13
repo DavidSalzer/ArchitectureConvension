@@ -70,7 +70,7 @@ class Ef_Sponsors_Widget extends WP_Widget {
 			foreach ( $categories as $category ) { ?>
 				
 				
-				<div class="sponsors sponsors-lg"><?php
+				<div class="sponsors sponsors-lg sponsor-<?=$category->slug?>""><?php
 					
 					$sponsors_args	= array(
 										'posts_per_page'	=> -1,
