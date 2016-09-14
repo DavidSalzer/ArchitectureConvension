@@ -3,7 +3,7 @@
     <head>
         <meta charset="<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <meta property="og:image" content="http://nadlancity.org.il/wp-content/uploads/2016/08/5049-harshama-1200x627.jpg<?php echo "?". round(microtime(true) * 1000); ?>" /> 
+        <meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/shareImage.jpg'; ?><?php echo "?". round(microtime(true) * 1000); ?>" /> 
 		<meta property="og:description" content='ועידת אילת לאדריכלות ולעיצוב – 6-8.12, אילת' />    		
 
         <!--[if IE]>

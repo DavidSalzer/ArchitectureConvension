@@ -70,8 +70,10 @@ class Ef_Sponsors_Widget extends WP_Widget {
 			foreach ( $categories as $category ) { ?>
 				
 				
-				<div class="sponsors sponsors-lg sponsor-<?=$category->slug?>""><?php
-					
+				<div class="sponsors sponsors-lg sponsor-<?=$category->slug?>"><?php
+					if($category->slug == 'small'){
+					    echo('<h1>חסויות מדיה</h1>');
+					}
 					$sponsors_args	= array(
 										'posts_per_page'	=> -1,
 										'post_type'			=> 'sponsor',
