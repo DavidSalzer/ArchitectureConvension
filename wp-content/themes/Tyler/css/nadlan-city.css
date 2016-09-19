@@ -1354,11 +1354,15 @@ span.wpcf7-form-control-wrap textarea {
     width: 15% !important;
 }
 
-div.wpcf7-mail-sent-ok {
+div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors {
     font-size: 24px;
     font-weight: bold;
     border: none !important;
     text-align: center;
+}
+
+div.wpcf7-validation-errors {
+    color: red;
 }
 
 .news-img {
