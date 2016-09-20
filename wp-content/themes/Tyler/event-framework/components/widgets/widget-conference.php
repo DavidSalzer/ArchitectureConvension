@@ -89,21 +89,7 @@
 
 
                     </div>
-                </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------.png" class="attachment-post-thumbnail wp-post-image" alt="מירי בלבול" title="מירי בלבול">
-
-                            </span>
-                        </span>
-                        <span class="speaker-name"><span>מירי בלבול</span></span>
-                        <span class="speaker-title title-mobile">סקולה</span>
-
-
-                    </div>
-                </div>
+                </div>                
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -202,6 +188,49 @@
 
                     </div>
                 </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/DANIELABW.jpg" alt="דניאלה פלסנר" title="דניאלה פלסנר">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>דניאלה פלסנר</span></span>
+                        <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/MIABW.jpg" alt="מיה פלסנר" title="מיה פלסנר">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>מיה פלסנר</span></span>
+                        <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------.png" class="attachment-post-thumbnail wp-post-image" alt="מירי בלבול" title="מירי בלבול">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>מירי בלבול</span></span>
+                        <span class="speaker-title title-mobile">סקולה</span>
+
+
+                    </div>
+                </div>
+
 
             </div>
         </div>
