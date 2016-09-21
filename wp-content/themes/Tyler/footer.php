@@ -42,26 +42,38 @@
 
 
 <script>
-        $( document ).ready(function() {
-    
-            var ua = window.navigator.userAgent;
-            var msie = ua.indexOf("MSIE");
-    
-             if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-                 $('.startup_input_file').css('width','60%');
-             } 
-            $( ".startup_input_select" ).change(function() {
-                if($( ".startup_input_select").val() == "אחר" && $( ".startup_input_other").val() == ""){
-                    alert("שים לב! יש למלא את השדה:'עיסוק אחר'");
-                }
-                if ($( ".startup_input_select" ).val() == "אחר") {
-                            $(".other_accu").css('display', 'block');
-    
-                        } else {
-                            $(".other_accu").css('display', 'none');
-                        }
+    $(document).ready(function () {
+
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE");
+
+        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+            $('.startup_input_file').css('width', '60%');
+        }
+        $(".startup_input_select").change(function () {
+            if ($(".startup_input_select").val() == "אחר" && $(".startup_input_other").val() == "") {
+                alert("שים לב! יש למלא את השדה:'עיסוק אחר'");
+            }
+            if ($(".startup_input_select").val() == "אחר") {
+                $(".other_accu").css('display', 'block');
+
+            } else {
+                $(".other_accu").css('display', 'none');
+            }
         });
-        });
+
+        var allStrig = location.search;
+        var mediaTitle = allStrig.substring(allStrig.lastIndexOf("?") + 12, allStrig.indexOf("&"));
+        if(mediaTitle != ''){
+            $('input.media').val(mediaTitle);
+            console.log(mediaTitle);
+        }
+        else {
+            $('input.media').val('site_dec16');
+            console.log(mediaTitle);
+            }
+        
+    });
 
 </script>
 </body>

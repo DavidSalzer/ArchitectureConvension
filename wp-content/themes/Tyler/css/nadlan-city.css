@@ -1342,6 +1342,10 @@ span.wpcf7-form-control-wrap textarea {
     outline: 0;
 }
 
+.wpcf7-form-control-wrap.media {
+    visibility: hidden;
+}
+
 .captch_input {
     font-size: 15px !important;
     background: #f1f1f1 !important;

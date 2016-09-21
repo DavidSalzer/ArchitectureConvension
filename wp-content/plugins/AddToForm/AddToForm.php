@@ -24,10 +24,7 @@ function getMedia() {
     $string = $_SERVER['REQUEST_URI'];
     $newString = (substr($string, strpos($string, "?MediaTitle=")+12))?substr($string, strpos($string, "?MediaTitle=")+12):'';
     $mediaTitle = (substr($newString, 0, strpos($newString, "&")))?substr($newString, 0, strpos($newString, "&")):'';
-        if ($mediaTitle=='') {
-    $mediaTitle = 'Design Site';
-    }
- return $mediaTitle;
+    return $mediaTitle;
 }
 
 add_action('wpcf7_before_send_mail', 'sendDetailsToBmbyForm',10,1);

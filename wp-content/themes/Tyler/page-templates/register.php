@@ -43,5 +43,4 @@
     </div><!-- end .container -->
 </div>
 
-
 <?php get_footer(); ?>
