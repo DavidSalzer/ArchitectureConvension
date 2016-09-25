@@ -84,7 +84,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>מיכי סתר</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%9B%D7%99-%D7%A1%D7%AA%D7%A8/"><span>מיכי סתר</span></a>
                         <span class="speaker-title title-mobile">סתר אדריכלים</span>
 
 
@@ -112,7 +112,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>יואב מסר</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%90%D7%91-%D7%9E%D7%A1%D7%A8/"><span>יואב מסר</span></a>
                         <span class="speaker-title title-mobile">יואב מסר אדריכלים</span>
 
 
@@ -126,7 +126,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>מיכאל אזולאי</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%9B%D7%90%D7%9C-%D7%90%D7%96%D7%95%D7%9C%D7%90%D7%99/"><span>מיכאל אזולאי</span></a>
                         <span class="speaker-title title-mobile">סטודיו מיכאל אזולאי</span>
 
 
@@ -140,7 +140,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>יוני מונג'ק</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%A0%D7%99-%D7%9E%D7%95%D7%A0%D7%92%D7%A7/"><span>יוני מונג'ק</span></a>
                         <span class="speaker-title title-mobile">יוני מונג'ק אדריכלות</span>
 
 
@@ -154,7 +154,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>פיצו קדם</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A4%D7%99%D7%A6%D7%95-%D7%A7%D7%93%D7%9D/"><span>פיצו קדם</span></a>
                         <span class="speaker-title title-mobile">פיצו קדם אדריכלים</span>
 
 
@@ -168,7 +168,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>אורלי רובינזון</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%A8%D7%95%D7%91%D7%99%D7%A0%D7%96%D7%95%D7%9F/"><span>אורלי רובינזון</span></a>
                         <span class="speaker-title title-mobile">יוצרת ספרי עיצוב ואדריכלות</span>
 
 
@@ -182,7 +182,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>רות פקר</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A8%D7%95%D7%AA-%D7%A4%D7%A7%D7%A8/"><span>רות פקר</span></a>
                         <span class="speaker-title title-mobile">לוין-פקר אדריכלים</span>
 
 
@@ -224,13 +224,42 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>מירי בלבול</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%A8%D7%99-%D7%91%D7%9C%D7%91%D7%95%D7%9C/"><span>מירי בלבול</span></a>
                         <span class="speaker-title title-mobile">סקולה</span>
 
 
                     </div>
                 </div>
 
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/dror-golan.jpg" class="attachment-post-thumbnail wp-post-image" alt="דרור גולן" title="דרור גולן">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%93%D7%A8%D7%95%D7%A8-%D7%92%D7%95%D7%9C%D7%9F/"><span>דרור גולן</span></a>
+                        <span class="speaker-title title-mobile">שומע [חושב] עושה - עיצוב והפקת אירועים</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/dror-golan.jpg" class="attachment-post-thumbnail wp-post-image" alt="צפרא פרלמוטר" title="צפרא פרלמוטר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A6%D7%A4%D7%A8%D7%90-%D7%A4%D7%A8%D7%9C%D7%9E%D7%95%D7%98%D7%A8/"><span>צפרא פרלמוטר</span></a>
+                        <span class="speaker-title title-mobile">מייסדת ומנכ"לית CO.CO</span>
+
+
+                    </div>
+                </div>
 
             </div>
         </div>

@@ -1514,7 +1514,7 @@ h1 img.img-circle {
     max-height: 110px;
     /*border: 2px solid #157eab;*/
     box-shadow: 0 0 0 2px #157eab;
-    margin-right: 40px;
+    /*margin-right: 40px;*/
     border-radius: 180px;
     position: relative;
     z-index: 10;
@@ -1868,12 +1868,12 @@ header.sticky #menu-primary {
 }
 
 .heading .container {
-    position: relative;
-    display: table;
+    /*position: relative;
+    display: table;*/
 }
 
 .heading h1 {
-    display: table-cell;
+    /*display: table-cell;*/
     vertical-align: middle;
     color: #fff;
     font-size: 44px;
