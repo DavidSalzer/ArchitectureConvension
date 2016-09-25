@@ -250,7 +250,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/dror-golan.jpg" class="attachment-post-thumbnail wp-post-image" alt="צפרא פרלמוטר" title="צפרא פרלמוטר">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/tsafra-small.jpg" class="attachment-post-thumbnail wp-post-image" alt="צפרא פרלמוטר" title="צפרא פרלמוטר">
 
                             </span>
                         </span>
