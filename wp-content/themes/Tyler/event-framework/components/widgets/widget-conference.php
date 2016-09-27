@@ -98,7 +98,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>אירנה קרוננברג ואלון ברנוביץ	</span></span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%90%D7%9C%D7%95%D7%9F-%D7%91%D7%A8%D7%A0%D7%95%D7%91%D7%99%D7%A5/"><span>אירנה קרוננברג ואלון ברנוביץ</span></a>
                         <span class="speaker-title title-mobile">BARANOWITZ + KRONENBERG</span>
 
 
