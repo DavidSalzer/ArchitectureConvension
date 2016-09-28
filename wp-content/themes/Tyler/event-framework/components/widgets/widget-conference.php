@@ -261,6 +261,21 @@
                     </div>
                 </div>
 
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="חיים דותן" title="חיים דותן">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%97%D7%99%D7%99%D7%9D-%D7%93%D7%95%D7%AA%D7%9F/"><span>חיים דותן</span></a>
+                        <span class="speaker-title title-mobile">חיים דותן אדריכלים</span>
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
 
