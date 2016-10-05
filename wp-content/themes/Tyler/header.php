@@ -48,7 +48,7 @@
   ga('create', 'UA-84731061-1', 'auto');
   ga('send', 'pageview');
 
-</script>ד
+</script>
         <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?

@@ -36,7 +36,7 @@
         <div class="container">
             <?php the_content(); ?>
             <hr/>
-            <div style="text-align: center;"><a href="http://nadlancity.org.il/#nadlan-conference">חזרה לדוברי הועידה</a></div>
+            <div style="text-align: center;"><a href="http://designcity.org.il/#nadlan-conference">חזרה לדוברי הועידה</a></div>
             <div style="display: none;">
                 <?php if (!empty($full_schedule_url)) { ?>
                     <a href="<?php echo $full_schedule_url; ?>" class="btn btn-primary btn-header pull-right hidden-xs to-schedule-btn"><?php _e('View full schedule', 'tyler'); ?></a>
