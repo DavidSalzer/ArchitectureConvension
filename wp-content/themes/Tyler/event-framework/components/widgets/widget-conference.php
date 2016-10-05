@@ -164,12 +164,12 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLYR.png" class="attachment-post-thumbnail wp-post-image" alt="אורלי רובינזון" title="אורלי רובינזון">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/10/---------------------.png" class="attachment-post-thumbnail wp-post-image" alt="יואב אנדרמן" title="יואב אנדרמן">
 
                             </span>
                         </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%A8%D7%95%D7%91%D7%99%D7%A0%D7%96%D7%95%D7%9F/"><span>אורלי רובינזון</span></a>
-                        <span class="speaker-title title-mobile">יוצרת ספרי עיצוב ואדריכלות</span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%90%D7%91-%D7%90%D7%A0%D7%93%D7%A8%D7%9E%D7%9F/"><span>יואב אנדרמן</span></a>
+                        <span class="speaker-title title-mobile">אנדרמן אדריכלים</span>
 
 
                     </div>
@@ -271,6 +271,20 @@
                         </span>
                         <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%97%D7%99%D7%99%D7%9D-%D7%93%D7%95%D7%AA%D7%9F/"><span>חיים דותן</span></a>
                         <span class="speaker-title title-mobile">חיים דותן אדריכלים</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLYR.png" class="attachment-post-thumbnail wp-post-image" alt="אורלי רובינזון" title="אורלי רובינזון">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%A8%D7%95%D7%91%D7%99%D7%A0%D7%96%D7%95%D7%9F/"><span>אורלי רובינזון</span></a>
+                        <span class="speaker-title title-mobile">יוצרת ספרי עיצוב ואדריכלות</span>
 
 
                     </div>
