@@ -60,64 +60,7 @@
 
         <div id="nadlan-conference">
             <div class="sessions condensed">
-                                    <!--<div class="session">
-                                        <div class="session-inner">
-                                            <span class="speakers-thumbs speakers-list">
-                                                <a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91" class="speaker  featured">
-                                                    <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="" title="">
-                    
-                                                </a>
-                                            </span>
-                                            <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91"></a></span>
-                                            <span class="speaker-title title-mobile">מנכ"ל</span>
-                                            <span class="speaker-title title-mobile">קבוצת אביב</span>
-                                            <a href="" class="speaker-title">תחום: מגורים</a>
-                    
-                                        </div>
-                                    </div>-->
-                                   
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------.png" class="attachment-post-thumbnail wp-post-image" alt="מיכי סתר" title="מיכי סתר">
 
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%9B%D7%99-%D7%A1%D7%AA%D7%A8/"><span>מיכי סתר</span></a>
-                        <span class="speaker-title title-mobile">סתר אדריכלים</span>
-
-
-                    </div>
-                </div>                
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------------------------------------smallBW.jpg" class="attachment-post-thumbnail wp-post-image" alt="ירנה קרוננברג ואלון ברנוביץ" title="ירנה קרוננברג ואלון ברנוביץ">
-
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%90%D7%9C%D7%95%D7%9F-%D7%91%D7%A8%D7%A0%D7%95%D7%91%D7%99%D7%A5/"><span>אירנה קרוננברג ואלון ברנוביץ</span></a>
-                        <span class="speaker-title title-mobile">BARANOWITZ + KRONENBERG</span>
-
-
-                    </div>
-                </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יואב מסר" title="יואב מסר">
-
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%90%D7%91-%D7%9E%D7%A1%D7%A8/"><span>יואב מסר</span></a>
-                        <span class="speaker-title title-mobile">יואב מסר אדריכלים</span>
-
-
-                    </div>
-                </div>
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -132,34 +75,7 @@
 
                     </div>
                 </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יוני מונג'ק" title="יוני מונג'ק">
 
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%A0%D7%99-%D7%9E%D7%95%D7%A0%D7%92%D7%A7/"><span>יוני מונג'ק</span></a>
-                        <span class="speaker-title title-mobile">יוני מונג'ק אדריכלות</span>
-
-
-                    </div>
-                </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="פיצו קדם" title="פיצו קדם">
-
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A4%D7%99%D7%A6%D7%95-%D7%A7%D7%93%D7%9D/"><span>פיצו קדם</span></a>
-                        <span class="speaker-title title-mobile">פיצו קדם אדריכלים</span>
-
-
-                    </div>
-                </div>
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -174,48 +90,7 @@
 
                     </div>
                 </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="רות פקר" title="רות פקר">
 
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A8%D7%95%D7%AA-%D7%A4%D7%A7%D7%A8/"><span>רות פקר</span></a>
-                        <span class="speaker-title title-mobile">לוין-פקר אדריכלים</span>
-
-
-                    </div>
-                </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/DANIELABW.jpg" alt="דניאלה פלסנר" title="דניאלה פלסנר">
-
-                            </span>
-                        </span>
-                        <span class="speaker-name"><span>דניאלה פלסנר</span></span>
-                        <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
-
-
-                    </div>
-                </div>
-                <div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/MIABW.jpg" alt="מיה פלסנר" title="מיה פלסנר">
-
-                            </span>
-                        </span>
-                        <span class="speaker-name"><span>מיה פלסנר</span></span>
-                        <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
-
-
-                    </div>
-                </div>
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -250,6 +125,114 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="חיים דותן" title="חיים דותן">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%97%D7%99%D7%99%D7%9D-%D7%93%D7%95%D7%AA%D7%9F/"><span>חיים דותן</span></a>
+                        <span class="speaker-title title-mobile">חיים דותן אדריכלים</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יוני מונג'ק" title="יוני מונג'ק">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%A0%D7%99-%D7%9E%D7%95%D7%A0%D7%92%D7%A7/"><span>יוני מונג'ק</span></a>
+                        <span class="speaker-title title-mobile">יוני מונג'ק אדריכלות</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יואב מסר" title="יואב מסר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%90%D7%91-%D7%9E%D7%A1%D7%A8/"><span>יואב מסר</span></a>
+                        <span class="speaker-title title-mobile">יואב מסר אדריכלים</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------.png" class="attachment-post-thumbnail wp-post-image" alt="מיכי סתר" title="מיכי סתר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%9B%D7%99-%D7%A1%D7%AA%D7%A8/"><span>מיכי סתר</span></a>
+                        <span class="speaker-title title-mobile">סתר אדריכלים</span>
+
+
+                    </div>
+                </div> 
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/DANIELABW.jpg" alt="דניאלה פלסנר" title="דניאלה פלסנר">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>דניאלה פלסנר</span></span>
+                        <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
+
+
+                    </div>
+                </div>
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/MIABW.jpg" alt="מיה פלסנר" title="מיה פלסנר">
+
+                            </span>
+                        </span>
+                        <span class="speaker-name"><span>מיה פלסנר</span></span>
+                        <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="רות פקר" title="רות פקר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A8%D7%95%D7%AA-%D7%A4%D7%A7%D7%A8/"><span>רות פקר</span></a>
+                        <span class="speaker-title title-mobile">לוין-פקר אדריכלים</span>
+
+
+                    </div>
+                </div>
+                
+                
+
+                
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
                                 <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/tsafra-small.jpg" class="attachment-post-thumbnail wp-post-image" alt="צפרא פרלמוטר" title="צפרא פרלמוטר">
 
                             </span>
@@ -265,16 +248,32 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="חיים דותן" title="חיים דותן">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="פיצו קדם" title="פיצו קדם">
 
                             </span>
                         </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%97%D7%99%D7%99%D7%9D-%D7%93%D7%95%D7%AA%D7%9F/"><span>חיים דותן</span></a>
-                        <span class="speaker-title title-mobile">חיים דותן אדריכלים</span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A4%D7%99%D7%A6%D7%95-%D7%A7%D7%93%D7%9D/"><span>פיצו קדם</span></a>
+                        <span class="speaker-title title-mobile">פיצו קדם אדריכלים</span>
 
 
                     </div>
                 </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------------------------------------------smallBW.jpg" class="attachment-post-thumbnail wp-post-image" alt="ירנה קרוננברג ואלון ברנוביץ" title="ירנה קרוננברג ואלון ברנוביץ">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%90%D7%9C%D7%95%D7%9F-%D7%91%D7%A8%D7%A0%D7%95%D7%91%D7%99%D7%A5/"><span>אירנה קרוננברג ואלון ברנוביץ</span></a>
+                        <span class="speaker-title title-mobile">BARANOWITZ + KRONENBERG</span>
+
+
+                    </div>
+                </div>
+
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -289,6 +288,37 @@
 
                     </div>
                 </div>
+                <!--------------------------------------------------------------------------------->
+
+
+                                    <!--<div class="session">
+                                        <div class="session-inner">
+                                            <span class="speakers-thumbs speakers-list">
+                                                <a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91" class="speaker  featured">
+                                                    <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="" title="">
+                    
+                                                </a>
+                                            </span>
+                                            <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%93%D7%A4%D7%A0%D7%94-%D7%94%D7%A8%D7%9C%D7%91"></a></span>
+                                            <span class="speaker-title title-mobile">מנכ"ל</span>
+                                            <span class="speaker-title title-mobile">קבוצת אביב</span>
+                                            <a href="" class="speaker-title">תחום: מגורים</a>
+                    
+                                        </div>
+                                    </div>-->
+                                   
+                               
+                
+
+                
+                
+                
+                
+                
+                
+
+                
+                
 
             </div>
         </div>
