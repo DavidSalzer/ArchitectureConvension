@@ -189,7 +189,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>דניאלה פלסנר</span></span>
+                        <a href="http://designcity.org.il/speakers/%D7%93%D7%A0%D7%99%D7%90%D7%9C%D7%94-%D7%A4%D7%9C%D7%A1%D7%A0%D7%A8/" class="speaker-name"><span>דניאלה פלסנר</span></a>
                         <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
 
 
@@ -203,7 +203,7 @@
 
                             </span>
                         </span>
-                        <span class="speaker-name"><span>מיה פלסנר</span></span>
+                        <a href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%94-%D7%A4%D7%9C%D7%A1%D7%A0%D7%A8/" class="speaker-name"><span>מיה פלסנר</span></a>
                         <span class="speaker-title title-mobile">פלסנר אדריכלים</span>
 
 
