@@ -106,6 +106,22 @@
                     </div>
                 </div>
 
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/10/BW--------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיקה בר" title="מיקה בר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%A7%D7%94-%D7%91%D7%A8/"><span>מיקה בר</span></a>
+                        <span class="speaker-title title-mobile">סטודיו מיקה בר לעיצוב טקסטיל</span>
+
+
+                    </div>
+                </div>
+
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
