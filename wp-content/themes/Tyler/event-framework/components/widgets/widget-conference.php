@@ -95,7 +95,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-------------------.png" class="attachment-post-thumbnail wp-post-image" alt="מירי בלבול" title="מירי בלבול">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/miri-balbul-NEW.jpg" class="attachment-post-thumbnail wp-post-image" alt="מירי בלבול" title="מירי בלבול">
 
                             </span>
                         </span>
@@ -196,6 +196,21 @@
 
                     </div>
                 </div> 
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/10/Shahar-Peleg.jpg" class="attachment-post-thumbnail wp-post-image" alt="שחר פלג" title="שחר פלג">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A9%D7%97%D7%A8-%D7%A4%D7%9C%D7%92/"><span>שחר פלג</span></a>
+                        <span class="speaker-title title-mobile">סטודיו <br/>PELEG DESIGN</span>
+
+
+                    </div>
+                </div>
 
                 <div class="session">
                     <div class="session-inner">
