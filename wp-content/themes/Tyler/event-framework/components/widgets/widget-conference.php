@@ -152,6 +152,23 @@
                     </div>
                 </div>
 
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/10/-----------------BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="דור כרמון" title="דור כרמון">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%93%D7%95%D7%A8-%D7%9B%D7%A8%D7%9E%D7%95%D7%9F/"><span>דור כרמון</span></a>
+                        <span class="speaker-title title-mobile">מעצב מוצר</span>
+
+
+                    </div>
+                </div>
+
+
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -279,6 +296,21 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/10/---------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיי קאהן" title="מיי קאהן">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%99-%D7%A7%D7%90%D7%94%D7%9F/"><span>מיי קאהן</span></a>
+                        <span class="speaker-title title-mobile">סטודיו קאהן</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
                                 <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="פיצו קדם" title="פיצו קדם">
 
                             </span>
@@ -309,7 +341,7 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLYR.png" class="attachment-post-thumbnail wp-post-image" alt="אורלי רובינזון" title="אורלי רובינזון">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/ORLY-R-BW.jpg" class="attachment-post-thumbnail wp-post-image" alt="אורלי רובינזון" title="אורלי רובינזון">
 
                             </span>
                         </span>
