@@ -61,6 +61,24 @@
         <div id="nadlan-conference">
             <div class="sessions condensed">
 
+                
+
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/dana-o---------.jpg" class="attachment-post-thumbnail wp-post-image" alt="דנה אוברזון" title="דנה אוברזון">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%93%D7%A0%D7%94-%D7%90%D7%95%D7%91%D7%A8%D7%96%D7%95%D7%9F/"><span>דנה אוברזון</span></a>
+                        <span class="speaker-title title-mobile">סטודיו דנה אוברזון אדריכלים</span>
+
+
+                    </div>
+                </div>
+
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -147,6 +165,21 @@
                         </span>
                         <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%97%D7%99%D7%99%D7%9D-%D7%93%D7%95%D7%AA%D7%9F/"><span>חיים דותן</span></a>
                         <span class="speaker-title title-mobile">חיים דותן אדריכלים</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/----------------------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="שרה הלקין" title="שרה הלקין">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A9%D7%A8%D7%94-%D7%94%D7%9C%D7%A7%D7%99%D7%9F/"><span>שרה הלקין</span></a>
+                        <span class="speaker-title title-mobile">אדריכלית</span>
 
 
                     </div>
