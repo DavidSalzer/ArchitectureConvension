@@ -44,7 +44,7 @@
 
 <script>
     $(document).ready(function () {
-
+        $('.wpcf7-list-item > input[type="checkbox"]').prop('checked', true);
         var ua = window.navigator.userAgent;
         var msie = ua.indexOf("MSIE");
 

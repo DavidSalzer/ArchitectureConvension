@@ -95,6 +95,15 @@
  * Extra small devices - Phones (<768px)
 */
 @media (max-width: 768px) {
+    .wpcf7-response-output {
+        position: absolute;
+        top: -135px;
+        background: #fff;
+        margin: auto !important;
+        width: 80%;
+        left: 0;
+        right: 0;
+    }
 
     #nadlan-conference .sessions .conferenc-type .session-inner {
         padding: 2px 9px;
