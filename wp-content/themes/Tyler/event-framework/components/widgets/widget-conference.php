@@ -159,6 +159,22 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/-----------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="גד הלפרין" title="גד הלפרין">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%92%D7%93-%D7%94%D7%9C%D7%A4%D7%A8%D7%99%D7%9F/"><span>גד הלפרין</span></a>
+                        <span class="speaker-title title-mobile">סטודיו גד</span>
+
+
+                    </div>
+                </div>
+
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
                                 <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/-----------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="חיים דותן" title="חיים דותן">
 
                             </span>
@@ -169,6 +185,7 @@
 
                     </div>
                 </div>
+
 
                 <div class="session">
                     <div class="session-inner">
