@@ -94,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="session">
+                <!--<div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
@@ -107,7 +107,7 @@
 
 
                     </div>
-                </div>
+                </div>-->
 
                 <div class="session">
                     <div class="session-inner">
@@ -197,6 +197,21 @@
                         </span>
                         <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A9%D7%A8%D7%94-%D7%94%D7%9C%D7%A7%D7%99%D7%9F/"><span>שרה הלקין</span></a>
                         <span class="speaker-title title-mobile">אדריכלית</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/------------------BW.png" class="attachment-post-thumbnail wp-post-image" alt="בני חנוכה" title="בני חנוכה">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%91%D7%A0%D7%99-%D7%97%D7%A0%D7%95%D7%9B%D7%94/"><span>בני חנוכה</span></a>
+                        <span class="speaker-title title-mobile">מנכ"ל bms טכנולוגיות (ח.א.ס) </span>
 
 
                     </div>
