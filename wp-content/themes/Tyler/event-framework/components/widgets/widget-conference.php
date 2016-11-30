@@ -63,6 +63,20 @@
 
                 
 
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/Gideon-Oberson-2.jpg" class="attachment-post-thumbnail wp-post-image" alt="דנה אוברזון" title="דנה אוברזון">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%92%D7%93%D7%A2%D7%95%D7%9F-%D7%90%D7%95%D7%91%D7%A8%D7%96%D7%95%D7%9F/"><span>גדעון אוברזון</span></a>
+                        <span class="speaker-title title-mobile">מעצב</span>
+
+
+                    </div>
+                </div>
 
                 <div class="session">
                     <div class="session-inner">
@@ -94,21 +108,6 @@
                     </div>
                 </div>
 
-                <!--<div class="session">
-                    <div class="session-inner">
-                        <span class="speakers-thumbs speakers-list">
-                            <span class="speaker  featured">
-                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/10/---------------------.png" class="attachment-post-thumbnail wp-post-image" alt="יואב אנדרמן" title="יואב אנדרמן">
-
-                            </span>
-                        </span>
-                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%90%D7%91-%D7%90%D7%A0%D7%93%D7%A8%D7%9E%D7%9F/"><span>יואב אנדרמן</span></a>
-                        <span class="speaker-title title-mobile">אנדרמן אדריכלים</span>
-
-
-                    </div>
-                </div>-->
-
                 <div class="session">
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
@@ -119,6 +118,21 @@
                         </span>
                         <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%A8%D7%99-%D7%91%D7%9C%D7%91%D7%95%D7%9C/"><span>מירי בלבול</span></a>
                         <span class="speaker-title title-mobile">סקולה</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/2--------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיקה בר" title="מיקה בר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%96%D7%94%D7%A8-%D7%91%D7%9F-%D7%99%D7%95%D7%A1%D7%A3/"><span>זהר בן יוסף</span></a>
+                        <span class="speaker-title title-mobile">אדריכלית </span>
 
 
                     </div>
@@ -144,12 +158,57 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/----------------2.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיקה בר" title="מיקה בר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%92%D7%99%D7%90-%D7%91%D7%A8-%D7%A0%D7%A1/"><span>גיא בר-נס</span></a>
+                        <span class="speaker-title title-mobile">Green Wall Israel</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/-----------------------2.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיקה בר" title="מיקה בר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%99%D7%95%D7%A1%D7%99-%D7%92%D7%95%D7%9C%D7%93%D7%91%D7%A8%D7%92/"><span>יוסי גולדברג</span></a>
+                        <span class="speaker-title title-mobile">אלמנטו</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
                                 <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/dror-golan.jpg" class="attachment-post-thumbnail wp-post-image" alt="דרור גולן" title="דרור גולן">
 
                             </span>
                         </span>
                         <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%93%D7%A8%D7%95%D7%A8-%D7%92%D7%95%D7%9C%D7%9F/"><span>דרור גולן</span></a>
                         <span class="speaker-title title-mobile">שומע [חושב] עושה - עיצוב והפקת אירועים</span>
+
+
+                    </div>
+                </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/---------BW.png" class="attachment-post-thumbnail wp-post-image" alt="מיקה בר" title="מיקה בר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%A0%D7%A2%D7%9D-%D7%92%D7%A4%D7%A0%D7%99/"><span>נעם גפני</span></a>
+                        <span class="speaker-title title-mobile">Vice President, Berko & Associates Hospitality Group</span>
 
 
                     </div>
@@ -283,6 +342,21 @@
                     <div class="session-inner">
                         <span class="speakers-thumbs speakers-list">
                             <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/-------------BW-1.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיכי סתר" title="מיכי סתר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9C%D7%90%D7%94-%D7%9E%D7%9C%D7%A8/"><span>לאה מלר</span></a>
+                        <span class="speaker-title title-mobile">לאה מלר אדריכלות פנים</span>
+
+
+                    </div>
+                </div> 
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
                                 <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/09/---------------1-1.png" class="attachment-post-thumbnail wp-post-image" alt="יואב מסר" title="יואב מסר">
 
                             </span>
@@ -293,6 +367,21 @@
 
                     </div>
                 </div>
+
+                <div class="session">
+                    <div class="session-inner">
+                        <span class="speakers-thumbs speakers-list">
+                            <span class="speaker  featured">
+                                <img width="319" height="319" src="http://designcity.org.il/wp-content/uploads/2016/11/--------------------------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="מיכי סתר" title="מיכי סתר">
+
+                            </span>
+                        </span>
+                        <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%9E%D7%99%D7%A7%D7%9C%D7%94-%D7%A1%D7%99%D7%9E%D7%90%D7%95%D7%A0%D7%94/"><span>מיקלה סימאונה</span></a>
+                        <span class="speaker-title title-mobile">אדריכל</span>
+
+
+                    </div>
+                </div> 
 
                 <div class="session">
                     <div class="session-inner">

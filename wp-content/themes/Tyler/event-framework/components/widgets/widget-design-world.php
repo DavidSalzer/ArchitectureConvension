@@ -52,7 +52,7 @@
 ?>
 
 <!-- TEXT -->
-<div class="tile_design_wrap main-title">
+<!--<div class="tile_design_wrap main-title">
     <h2><?php echo stripslashes($designtitle); ?></h2>
     <h3><?php echo stripslashes($designsubtitle); ?></h3>
     <div id="tile_design" class="container widget">
@@ -135,19 +135,7 @@
 
 
 
-                <!---->
-                                    <!--<div class="session">
-                                        <div class="session-inner">
-                                            <span class="speakers-thumbs speakers-list">
-                                                <a href="http://nadlancity.org.il/?speaker=%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%A8%D7%95%D7%91%D7%99%D7%A0%D7%96%D7%95%D7%9F-%D7%9E%D7%97%D7%91%D7%A8%D7%AA-%D7%A1%D7%A4%D7%A8%D7%99-%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%95%D7%AA-%D7%95%D7%A2" class="speaker  featured">
-                                                    <img width="319" height="319" src="http://nadlancity.org.il/wp-content/uploads/2015/08/---------------------------.jpg" class="attachment-post-thumbnail wp-post-image" alt="אורלי רובינזון" title="אורלי רובינזון">
-                                                </a>
-                                            </span>
-                                            <span class="speaker-name"><a href="http://nadlancity.org.il/?speaker=%D7%90%D7%95%D7%A8%D7%9C%D7%99-%D7%A8%D7%95%D7%91%D7%99%D7%A0%D7%96%D7%95%D7%9F-%D7%9E%D7%97%D7%91%D7%A8%D7%AA-%D7%A1%D7%A4%D7%A8%D7%99-%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%95%D7%AA-%D7%95%D7%A2">אורלי רובינזון</a></span>
-                                            <a href="http://nadlancity.org.il/?page_id=245350" class="speaker-title">אדריכלות ועיצוב פנים</a>
-                                            <span class="speaker-title title-mobile">מנכ"ל אזורים</span>
-                                        </div>
-                                    </div>-->
+             
             </div>
 
 
@@ -155,7 +143,7 @@
 
 
     </div>
-</div>
+</div>-->
 <?php
     
         echo stripslashes($args['after_widget']);
