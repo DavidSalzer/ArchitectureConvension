@@ -29,7 +29,7 @@ $ef_options = EF_Event_Options::get_theme_options();
 			$reg_widget = reset( $widget_ef_registration );
 			if( $reg_widget['registrationshowcalltoaction'] == 1 ) { ?>
             	<!--<a href="<?php echo home_url( '/' ); ?>?page_id=48" class="btn btn-lg btn-secondary sign-up-btn">ההרשמה תחל בקרוב</a>-->
-				<a href="<?php echo $registerUrl;?>" class="btn btn-lg btn-secondary sign-up-btn">SOLD OUT! <br/>תודה לכל הנרשמים - הכרטיסים לועידה אזלו - ניפגש ב 2017</a>
+				<a href="<?php echo $registerUrl;?>" class="btn btn-lg btn-secondary sign-up-btn">SOLD OUT!</a>
         	<?php 
 			}
 		} ?>
