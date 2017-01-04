@@ -285,7 +285,7 @@
                             </span>
                         </span>
                         <a class="speaker-name" href="http://designcity.org.il/speakers/%D7%91%D7%A0%D7%99-%D7%97%D7%A0%D7%95%D7%9B%D7%94/"><span>בני חנוכה</span></a>
-                        <span class="speaker-title title-mobile">מנכ"ל bms טכנולוגיות (ח.א.ס) </span>
+                        <span class="speaker-title title-mobile">מנכ"ל ShutterWall טכנולוגיות</span>
 
 
                     </div>
