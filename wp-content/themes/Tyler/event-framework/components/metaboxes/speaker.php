@@ -9,6 +9,7 @@ function ef_speaker_metabox() {
 	if (get_page_template_slug() == 'speakers.php') {
 		add_meta_box('metabox-speakers-full-screen', __('Speakers Sections', 'dxef'), 'ef_metabox_speakers_full_screen', 'page', 'normal', 'high');
 	}
+	add_meta_box('speaker_fields',   __('Fields', 'dxef'), 'fields_box', 'speaker', 'normal', 'default' );  
 }
 
 
@@ -164,3 +165,37 @@ function ef_metabox_speakers_full_screen($post) {
     </div>
     <?php
 }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+///  Add metaboxes for Speaker
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+if( !function_exists('tyler_add_speaker_metaboxes') ):
+function tyler_add_speaker_metaboxes() {    
+    add_meta_box('speaker_fields',   __('Fields'), 'fields_box', 'speaker', 'normal', 'default' );           
+}
+endif; // end  tyler_add_speaker_metaboxes
+
+if( !function_exists('fields_box') ):
+function fields_box($post){
+    global $post;
+	// Add a nonce field so we can check for it later.
+	wp_nonce_field( 'tyler_speaker_meta_box_data', 'tyler_speaker_meta_box_nonce' );	
+    $fields   = get_post_meta($post->ID, 'speaker_fields',true);
+
+?>
+            <div class="plan_row">  
+				<p class="meta-options">
+					<label for="speaker_fields[position]"><?=__('Position', 'dxef')?></label>
+					<input class="widefat" id="speaker_fields[position]" type="text" size="36" name="speaker_fields[position]" value="<?=(isset($fields['position']))?esc_attr($fields['position']):''?>"  />
+			   </p>
+			   <p class="meta-options">
+					<label for="speaker_fields[area]"><?=__('Area', 'dxef')?></label>
+					<input class="widefat" id="speaker_fields[area]" type="text" size="36" name="speaker_fields[area]" value="<?=(isset($fields['area']))?esc_attr($fields['area']):''?>" />
+			   </p>
+            </div>
+<?php   
+
+            
+}//article 
+endif;

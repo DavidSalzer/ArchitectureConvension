@@ -3,8 +3,7 @@
     <head>
         <meta charset="<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/shareImage.jpg'; ?><?php echo "?". round(microtime(true) * 1000); ?>" /> 
-		<meta property="og:description" content='ועידת אילת לאדריכלות ולעיצוב – 6-8.12, אילת' />    		
+		
 
         <!--[if IE]>
         <meta name="X-UA-Compatible" content="IE=edge" >
@@ -37,58 +36,17 @@
             }
         </style>
         <![endif]-->
-        <?php wp_head(); ?>
+        <?php wp_head(); ?>     
 
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-84731061-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-        <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '608949419188799');
-fbq('track', "PageView");</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=608949419188799&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
-        
     </head>
     <body <?php body_class(); ?>>
 
-        <!-- Google Code for Architect conference -->
-<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 1042074714;
-var google_conversion_label = "LIpACOS5kmoQ2pjz8AM";
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1042074714/?value=1.00&amp;currency_code=ILS&amp;label=LIpACOS5kmoQ2pjz8AM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
+	<div id="fb-root"></div>
         <div id="not-seport-html5"></div>
+
         <header class="nav transition">
             <a class="visible-xs visible-sm" href="<?php echo esc_url(home_url()); ?>" id="logo">
-                  <img class="img-logo" src="<?php echo get_template_directory_uri() . '/images/logo_new.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
+                <img class="img-logo" src="<?php echo tyler_set_theme_logo(); ?>" alt="Logo <?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>" />
              </a>
              <nav class="navbar" role="navigation">
                 <div class="container">
@@ -102,8 +60,8 @@ var google_remarketing_only = true;
                         
                     </div>
                     <div id="navbar" class="navbar-collapse collapse text-fit">
-                        <a class="navbar-brand pull-right hidden-xs hidden-sm" href="<?php echo esc_url(home_url()); ?>">
-                            <img class="img-logo" src="<?php echo get_template_directory_uri() . '/images/logo_new.png'; ?>" alt="מרכז הבניה הישראלי" title="מרכז הבניה הישראלי" />
+                        <a class="navbar-brand pull-left hidden-xs hidden-sm" href="<?php echo esc_url(home_url()); ?>">
+                           <img class="img-logo" src="<?php echo tyler_set_theme_logo(); ?>" alt="Logo <?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>" />
                         </a>
                         <?php
                         wp_nav_menu(array(

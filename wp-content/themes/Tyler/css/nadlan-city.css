@@ -146,6 +146,42 @@ footer .credits {
 header ul li {
     font-size: 0.9em;
 }
+
+.home-baner {
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+
+.pas-baner {
+    width: 100%;
+    height: 85px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.top-baner {
+    margin-bottom: 35px;
+}
+
+.bottom-baner {
+    margin-top: 35px;
+}
+
+.add-text {
+    font-size: 20px;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.add-img, .main-logo, .registration-Btn, .add-text {
+    margin-bottom: 25px;
+}
 /********************homepage********************/
 header ul ul {
     text-align: right;
@@ -376,7 +412,7 @@ header ul li.register a {
 #tile_description h2, #tile_conference h2 {
     text-align: center;
     font-size: 26px;
-    color: #044e8d;
+    color: #000;
 }
 
 #nadlan-description .speakers {
@@ -1489,7 +1525,7 @@ a img.aligncenter {
 /* Generic styles
  ---------------- */
 html, body {
-    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans Hebrew';
     font-size: 16px;
     font-weight: 400;
     color: #242424;
@@ -1501,7 +1537,7 @@ body.header-sticky {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans Hebrew';
 }
 
 h1 {
@@ -1522,7 +1558,7 @@ h1 img.img-circle {
 
 h2 {
     font-size: 36px;
-    font-weight: 300;
+    font-weight: bold;
     color: #242424;
     line-height: 42px;
     margin: 0 0 12px;
@@ -1538,6 +1574,7 @@ h3 {
     font-weight: 400;
     color: #919191;
     margin: 0 0 12px;
+    text-align: center;
 }
 
 .row h3 {
@@ -1881,7 +1918,7 @@ header.sticky #menu-primary {
     margin: 0;
     padding: 27px 0;
     line-height: 1.2;
-    height: 158px;
+
 }
 
 .heading h1 p {
@@ -2528,13 +2565,13 @@ h2 + .btn-header {
 }
 
 span.social {
-    background: #0163c6;
+    
     display: inline-block;
     position: relative;
     font-size: 26px;
     width: 134px;
     height: 70px;
-    color: #fff;
+    color: #ca2a1d;
     text-decoration: none;
     text-align: center;
     line-height: 70px;
@@ -3915,16 +3952,15 @@ MEDIA CUSTOMIZATION
 }
 
 #tile_media .btn-check.btn-primary {
-    color: #000;
+    color: #fff;
     border: none;
-    background: #fff;
+    background: #ccc;
 }
 
 #tile_media .btn-check.btn-primary:hover {
     color: #fff;
     border: none;
-    background: url('../images/gallery-btn.jpg');
-    background-size: cover;
+    background: #ca2a1d;
 }
 
 /*#tile_media .btn-check:nth-child(1) {
@@ -3940,7 +3976,7 @@ MEDIA CUSTOMIZATION
 }*/
 
 #tile_media .btn-check.active {
-    background: url('../images/gallery-btn.jpg');
+    background: #ca2a1d;
     background-size: cover;
     color: #fff !important;
 }

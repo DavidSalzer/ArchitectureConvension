@@ -14,13 +14,21 @@ include_once( EF_COMPONENTS_DIR . 'widgets/widget-news.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-contact.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-explore.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-event-description.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-event-description-element.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-call-to-action.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-text-columns.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-footer-text-columns.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-comments.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-conference.php' );
 include_once( EF_COMPONENTS_DIR . 'widgets/widget-concert.php' );
-include_once( EF_COMPONENTS_DIR . 'widgets/widget-design-world.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-top-baner.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-bottom-baner.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-registration-btn.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-main-logo.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-additional-text.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-additional-image.php' );
+include_once( EF_COMPONENTS_DIR . 'widgets/widget-speakers-list.php' );
+
 
 // Multievent widgets file
 if ( current_theme_supports( 'multievent' ) ) {

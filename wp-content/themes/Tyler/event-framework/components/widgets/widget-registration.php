@@ -58,7 +58,7 @@ class Ef_Registration_Widget extends WP_Widget {
 	    echo stripslashes($args['before_widget']);?>
 	    
 	    <!-- REGISTRATION -->
-	    <div id="tile_registration" class="container widget">
+	    <!--<div id="tile_registration" class="container widget">
 	        <h2><?php echo stripslashes($registrationtitle); ?></h2>
 	        <h3><?php echo stripslashes($registrationsubtitle); ?></h3>
 	        <div style="margin:2em 0">
@@ -67,7 +67,8 @@ class Ef_Registration_Widget extends WP_Widget {
 	        <p>
 	            <?php echo do_shortcode(stripslashes($registrationtext)); ?>
 	        </p>
-	    </div>
+	    </div>-->
+        <a href="<?php echo l;?>" class="btn btn-lg btn-secondary sign-up-btn"> <?=$registrationtitle?></a>
 	    <?php
 	    echo stripslashes($args['after_widget']);
 	}

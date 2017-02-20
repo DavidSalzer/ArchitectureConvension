@@ -104,7 +104,22 @@ class DX_Event_Framework {
 		'before_title' => '',
 		'after_title' => '',
 		));
-	
+	register_sidebar( array(
+		'id' => 'homepage-top',
+		'name' => __('Homepage Top', 'dxef'),
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
+		));
+		register_sidebar( array(
+			'id' => 'description_event_elements',
+			'name' => __('Description Eveents Elements', 'dxef'),
+			'before_widget' => '',
+			'after_widget' => '',
+			'before_title' => '',
+			'after_title' => '',
+		));
 		register_sidebar( array(
 		'id' => 'main',
 		'name' => __('Main Sidebar', 'dxef')

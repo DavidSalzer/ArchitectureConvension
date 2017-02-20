@@ -49,11 +49,9 @@
             echo stripslashes($args['before_widget']);
 ?>
 <!--MEDIABOX-->
-<div id="tile_media" class="mediabox-wrapper widget main-title">
-    <h2><?php echo stripslashes($mediatitle); ?></h2>
-
+<div id="tile_media" class="mediabox-wrapper widget">
     <div class="container">
-        
+        <h2><?php echo stripslashes($mediatitle); ?></h2>
         <div class="btn-group-header">
             <?php
                 $media_types = get_terms('media-type');
@@ -72,7 +70,7 @@
         </div>
         <h3><?php echo stripslashes($mediasubtitle); ?></h3>
     </div>
-    <div style="background: #e7e7e7;">
+    <div style="background: #fff;">
         <div class="mediabox carousel slide" data-ride="carousel" data-interval="false" id="mediabox-carousel" style="z-index: 1;">
             <!-- Indicators -->
             <ol class="carousel-indicators">

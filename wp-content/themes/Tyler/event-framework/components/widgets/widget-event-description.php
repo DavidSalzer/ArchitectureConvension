@@ -47,67 +47,24 @@
             $eventdescriptiontitle		= isset( $instance['eventdescriptiontitle'] ) ? $instance['eventdescriptiontitle'] : '';
             $eventdescriptionsubtitle	= isset( $instance['eventdescriptionsubtitle'] ) ? $instance['eventdescriptionsubtitle'] : '';
             $eventdescriptioncontent	= isset( $instance['eventdescriptioncontent'] ) ? $instance['eventdescriptioncontent'] : '';
-    
+			
             echo stripslashes( $args['before_widget'] );
 ?>
 
 <!-- TEXT -->
-<div class="tile_description_wrap main-title">
-    <h2><?php echo stripslashes($eventdescriptiontitle); ?><br/><?php echo stripslashes($eventdescriptionsubtitle); ?></h2>
-     <h3></h3>
+<div class="tile_description_wrap">
     <div id="tile_description" class="container widget">
-        
+        <h2><?php echo stripslashes($eventdescriptiontitle); ?></h2>
+        <h3><?php echo stripslashes($eventdescriptionsubtitle); ?></h3>
 
         <div id="nadlan-description">
 
 
             <div class="speakers">
-                <div class="speaker  featured">
-                    <a class="speaker-inner">
-
-                        <span class="photo">
-                            <img src="<?php echo get_template_directory_uri() . '/images/icon5.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="ועידות" title="ועידות">
-                        </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">ספריית חומרים עשירה ומפתיעה</span></span></span>
-
-                    </a>
-                </div>
-                <div class="speaker  featured">
-                    <a class="speaker-inner">
-                        <span class="photo">
-                            <img src="<?php echo get_template_directory_uri() . '/images/icon4.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="מרצים" title="מרצים">
-                        </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">דוברים מובילים מעולמות העיצוב</span></span></span>
-
-                    </a>
-                </div>
-                <div class="speaker  featured">
-                    <a  class="speaker-inner">
-                        <span class="photo">
-                            <img src="<?php echo get_template_directory_uri() . '/images/icon3.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="משתתפים" title="משתתפים">
-                        </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">בהשתתפות כ-400 אדריכלים ומעצבים</span></span></span>
-
-                    </a>
-                </div>
-                <div class="speaker  featured">
-                    <a  class="speaker-inner">
-                        <span class="photo">
-                            <img src="<?php echo get_template_directory_uri() . '/images/icon2.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="בילינג" title="בילינג">
-                        </span>
-                        <span class="name" style="letter-spacing: -0.1px;"><span><span style="display:block">סדנאות מקצועיות ומפגשי נטוורקינג</span></span></span>
-
-                    </a>
-                </div>
-                <div class="speaker  featured">
-                    <a  class="speaker-inner">
-                        <span class="photo">
-                            <img src="<?php echo get_template_directory_uri() . '/images/icon1.jpg'; ?>" class="attachment-tyler-speaker wp-post-image" alt="פנאי" title="פנאי">
-                        </span>
-                        <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block">אירוח FULL BOARD והופעות חיות</span></span></span>
-
-                    </a>
-                </div>
+                <?php
+					if (is_active_sidebar('description_event_elements'))
+						dynamic_sidebar('description_event_elements');
+				?>
 
             </div>
         </div>

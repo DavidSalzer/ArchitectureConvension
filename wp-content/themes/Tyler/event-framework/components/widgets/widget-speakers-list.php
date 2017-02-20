@@ -14,22 +14,22 @@
      * @package Conference
      * @since 1.0.0
      */
-    class Ef_Conference_Widget extends WP_Widget {
+    class Ef_SpeakersList_Widget extends WP_Widget {
         /**
          * Contact Widget setup.
          * 
          * @package Event Framework
          * @since 1.0.0
          */
-        function Ef_Conference_Widget() {
+        function Ef_SpeakersList_Widget() {
     
             $widget_name = EF_Framework_Helper::get_widget_name();
     
             /* Widget settings. */
-            $widget_ops = array( 'classname' => 'ef_conference', 'description' => __( 'Shows the conference', 'dxef' ) );
+            $widget_ops = array( 'classname' => 'ef_speakersList', 'description' => __( 'Shows the Speakers List', 'dxef' ) );
     
             /* Create the widget. */
-            $this->WP_Widget( 'ef_conference', $widget_name . __( ' Conference', 'dxef' ), $widget_ops );
+            $this->WP_Widget( 'ef_speakersList', $widget_name . __( ' Home Speakers List', 'dxef' ), $widget_ops );
     
         }
     
@@ -44,22 +44,22 @@
          */
         function widget( $args, $instance ) {
     
-            $conferencetitle		= isset( $instance['conferencetitle'] ) ? $instance['conferencetitle'] : '';
-            $conferencesubtitle	= isset( $instance['conferencesubtitle'] ) ? $instance['conferencesubtitle'] : '';
-            $conferencecontent	= isset( $instance['conferencecontent'] ) ? $instance['conferencecontent'] : '';
-			$sessionsConfrence=new Confrence();
+            $speakersListtitle		= isset( $instance['speakersListtitle'] ) ? $instance['speakersListtitle'] : '';
+            $speakersListsubtitle	= isset( $instance['speakersListsubtitle'] ) ? $instance['speakersListsubtitle'] : '';
+            $speakersListcontent	= isset( $instance['speakersListcontent'] ) ? $instance['speakersListcontent'] : '';
+			$sessionsSpeakersList=new speakersList();
             echo stripslashes( $args['before_widget'] );
 ?>
 
 <!-- TEXT -->
 <div class="tile_conference_wrap">
     <div id="tile_conference" class="container widget">
-        <div id="nadlan-conference">
+        <div id="nadlan-speakers">
             <h2 style="font-size:22px;">
-			<p><?php echo stripslashes($conferencetitle); ?></p>
+			<p><?php echo stripslashes($speakersListtitle); ?></p>
 			</h2>
             <div class="sessions condensed">
-                <?php echo $sessionsConfrence->render();?>
+                <?php echo $sessionsSpeakersList->render();?>
             </div>
 
 
@@ -91,9 +91,9 @@
         $instance = $new_instance;
     
         /* Input fields */
-        $instance['conferencetitle']		= strip_tags( $new_instance['conferencetitle'] );
-        $instance['conferencesubtitle']	= strip_tags( $new_instance['conferencesubtitle'] );
-        $instance['conferencecontent']	= $new_instance['conferencecontent'];
+        $instance['speakersListtitle']		= strip_tags( $new_instance['speakersListtitle'] );
+        $instance['speakersListsubtitle']	= strip_tags( $new_instance['speakersListsubtitle'] );
+        $instance['speakersListcontent']	= $new_instance['speakersListcontent'];
     
         return $instance;
     
@@ -110,25 +110,25 @@
      */
     function form( $instance ) {
     
-        $conferencetitle		= isset( $instance['conferencetitle'] ) ? $instance['conferencetitle'] : '';
-        $conferencesubtitle	= isset( $instance['conferencesubtitle'] ) ? $instance['conferencesubtitle'] : '';
-        $conferencecontent	= isset( $instance['conferencecontent'] ) ? $instance['conferencecontent'] : '';
+        $speakersListtitle		= isset( $instance['speakersListtitle'] ) ? $instance['speakersListtitle'] : '';
+        $speakersListsubtitle	= isset( $instance['speakersListsubtitle'] ) ? $instance['speakersListsubtitle'] : '';
+        $speakersListcontent	= isset( $instance['speakersListcontent'] ) ? $instance['speakersListcontent'] : '';
 ?>
 
 <em><?php _e('Title:', 'dxef'); ?></em><br />
-<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'conferencetitle' ); ?>" value="<?php echo stripslashes($conferencetitle); ?>" />
+<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'speakersListtitle' ); ?>" value="<?php echo stripslashes($speakersListtitle); ?>" />
 <br /><br />
 <em><?php _e('Subtitle:', 'dxef'); ?></em><br />
-<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'conferencesubtitle' ); ?>" value="<?php echo stripslashes($conferencesubtitle); ?>" />
+<input type="text" class="widefat" name="<?php echo $this->get_field_name( 'speakersListsubtitle' ); ?>" value="<?php echo stripslashes($speakersListsubtitle); ?>" />
 <br /><br />
 <em><?php _e('Content:', 'dxef'); ?></em><br />
-<textarea id="eventdescriptioncontent" name="<?php echo $this->get_field_name( 'conferencecontent' ); ?>" class="widefat" rows="10"><?php echo esc_html($conferencecontent);?></textarea>
+<textarea id="eventdescriptioncontent" name="<?php echo $this->get_field_name( 'speakersListcontent' ); ?>" class="widefat" rows="10"><?php echo esc_html($speakersListcontent);?></textarea>
 <br /><br />
-<a href="<?=admin_url()?>/options-general.php?page=confrence_speakers_admin"><em><?php _e('To confrence speakers admin:', 'dxef'); ?></em></a><br />
+<a href="<?=admin_url()?>/options-general.php?page=home_speakers_list_admin"><em><?php _e('To Speakers List admin:', 'dxef'); ?></em></a><br />
 
 <input type="hidden" name="submitted" value="1" /><?php
     
         }
     }
     //Register Widget
-    register_widget( 'Ef_Conference_Widget' );
+    register_widget( 'Ef_SpeakersList_Widget' );

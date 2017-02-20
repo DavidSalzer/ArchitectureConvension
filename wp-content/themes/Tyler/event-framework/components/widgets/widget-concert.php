@@ -52,11 +52,10 @@
 ?>
 
 <!-- TEXT -->
-<div class="tile_concert_wrap main-title">
-    <h2><?php echo stripslashes($concerttitle); ?></h2>
-     <h3><?php echo stripslashes($concertsubtitle); ?></h3>
+<div class="tile_concert_wrap">
     <div id="tile_concert" class="container widget">
-        
+        <h2><?php echo stripslashes($concerttitle); ?></h2>
+        <h3><?php echo stripslashes($concertsubtitle); ?></h3>
 
         <div id="nadlan-concert">
             <div class="item-show">

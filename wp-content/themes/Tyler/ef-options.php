@@ -67,7 +67,7 @@ $social_instagram = new EF_Text_Field( 'ef_instagram' , 'Instagram URL' );
 $social_pinterest = new EF_Text_Field( 'ef_pinterest' , 'Pinterest URL' );
 $social_linkedin = new EF_Text_Field( 'ef_linkedin' , 'LinkedIn URL' );
 $social_add_this = new EF_Text_Field( 'ef_add_this_pubid' , 'AddThis PubID' );
-
+$social_youtube = new EF_Text_Field( 'ef_youtube' , 'Youtube URL' );
 // Misc Fields
 $misc_importer = new EF_Importer_Field( 'misc-importer', 'Demo Data ', "Import test data. Success message will follow." );
 
@@ -101,7 +101,7 @@ $tab_social_connecting->add_field( 'ef_instagram' , $social_instagram );
 $tab_social_connecting->add_field( 'ef_pinterest', $social_pinterest );
 $tab_social_connecting->add_field( 'ef_linkedin', $social_linkedin );
 $tab_social_connecting->add_field( 'ef_add_this_pubid', $social_add_this );
-
+$tab_social_connecting->add_field( 'ef_youtube', $social_youtube );
 /*
  * Add All Main Tabs
  */

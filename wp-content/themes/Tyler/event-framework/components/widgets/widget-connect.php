@@ -61,7 +61,7 @@
             <div class="connect-inner">
                 
                 <div class="links">
-                    <!--<span class="social"><?php echo stripslashes( $connecttitle ); ?></span>-->
+                    <span class="social"><?php echo stripslashes( $connecttitle ); ?></span>
                     <?php
                         
                         if ( ! empty( $ef_options['ef_email'] ) && is_email( $ef_options['ef_email'] ) ) {
@@ -102,9 +102,13 @@
                         if ( ! empty( $ef_options['ef_pinterest'] ) ) {
                     ?>
                     <a href="<?php echo esc_url( $ef_options['ef_pinterest'], $esc_url_protocols ); ?>" target="_blank" title="Pinterest"><i class="icon-pinterest"></i></a><?php
-                        }
+                        } 
+                        if ( ! empty( $ef_options['ef_youtube'] ) ) {
                     ?>
-                    <a href="https://www.youtube.com/channel/UCImzzV6XC1B1QOOaEx7Ug3g" target="_blank" title="Youtube" class="youtube"><i class="icon-youtube"></i></a>
+                    <a href="<?php echo esc_url( $ef_options['ef_youtube'], $esc_url_protocols ); ?>" target="_blank" title="youtube" class="youtube"><i class="icon-youtube"></i></a><?php
+                        }
+                     ?>
+                    
                 </div>
             </div>
         </div>

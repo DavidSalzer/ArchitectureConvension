@@ -1,5 +1,6 @@
 <?php
     // ******************* Add Libraries ****************** //
+    require_once('libs/Confrence.php');
     require_once('event-framework/lib/facebook/facebook.php');
     require_once('event-framework/lib/twitter.php');
     require_once('event-framework/lib/geocode.php');
@@ -118,15 +119,18 @@
         wp_enqueue_style('tyler-blueimp-gallery', get_template_directory_uri() . '/css/blueimp-gallery.min.css');
         wp_enqueue_style('tyler-jquery-scrollpane', get_template_directory_uri() . '/css/jquery.scrollpane.css');
         wp_enqueue_style('jquery-icalendar', get_stylesheet_directory_uri() . '/css/jquery.icalendar.css');
-        //wp_enqueue_style('tyler-icons', get_template_directory_uri() . '/css/icon.css');
+        wp_enqueue_style('tyler-icons', get_template_directory_uri() . '/css/icon.css');
+        //wp_enqueue_style('tyler-layout', get_stylesheet_directory_uri() . '/css/layout.css');
         wp_enqueue_style('tyler-nadlan-city', get_stylesheet_directory_uri() . '/css/nadlan-city.css');
-        wp_enqueue_style('tyler-nadlan-city-mobile', get_stylesheet_directory_uri() . '/css/nadlan-city-mobile.css'); 
+        //wp_enqueue_style('tyler-layout-mobile', get_stylesheet_directory_uri() . '/css/layout-mobile.css');
+        wp_enqueue_style('tyler-nadlan-city-mobile', get_stylesheet_directory_uri() . '/css/nadlan-city-mobile.css');
+    
     
         // Color Schemes
-        //$color_scheme = empty( $ef_options['ef_color_palette'] ) ? 'basic' : $ef_options['ef_color_palette'];
-        //if ( isset( $color_scheme ) && $color_scheme != 'basic' ) {
-          //  wp_enqueue_style( $color_scheme . '-scheme', get_template_directory_uri() . '/css/schemes/' . $color_scheme . '/layout.css' );
-        //}
+        $color_scheme = empty( $ef_options['ef_color_palette'] ) ? 'basic' : $ef_options['ef_color_palette'];
+        if ( isset( $color_scheme ) && $color_scheme != 'basic' ) {
+            //wp_enqueue_style( $color_scheme . '-scheme', get_template_directory_uri() . '/css/schemes/' . $color_scheme . '/layout.css' );
+        }
     
         if (get_page_template_slug() == 'twitter.php') {
             wp_enqueue_script('jquery-tweet-machine', get_template_directory_uri() . '/js/tweetMachine.min.js', array('jquery'), false, true);
@@ -170,7 +174,8 @@
     add_action('admin_enqueue_scripts', 'tyler_admin_enqueue_scripts');
     
     add_action( 'wp_head', 'tyler_twitter_template_hash' );
-    
+
+
     function tyler_twitter_template_hash() {
         if (get_page_template_slug() == 'twitter.php') {
 ?>
@@ -183,9 +188,17 @@
     
                function tyler_admin_enqueue_scripts($hook) {
                    global $post_type;
-    
+				   	wp_enqueue_script('media-upload');
+					wp_enqueue_script('thickbox');
+					wp_enqueue_style('thickbox');
+					wp_enqueue_media();
+					wp_enqueue_script( 'my-script-handle', get_stylesheet_directory_uri() . '/js/admin/admin_add.js', array('media-upload', 'thickbox','jquery','wp-color-picker' ), '1.0', true );
                    if (in_array($hook, array('post.php', 'post-new.php'))) {
-                       if ($post_type == 'session') {
+                       if($post_type == 'event_description'){
+						   wp_enqueue_style('tyler-nadlan-city', get_stylesheet_directory_uri() . '/css/nadlan-city.css');
+						   wp_enqueue_style('tyler-layout', get_stylesheet_directory_uri() . '/css/layout.css');
+					   }
+					   if ($post_type == 'session') {
                            wp_enqueue_script('jquery-ui-datepicker');
                            wp_enqueue_style('jquery-ui-datepicker', get_template_directory_uri() . '/css/admin/smoothness/jquery-ui-1.10.3.custom.min.css');
                            wp_enqueue_script('jquery-ui-sortable');
@@ -1416,3 +1429,4 @@
     
         return $posts_ids;
     }
+    

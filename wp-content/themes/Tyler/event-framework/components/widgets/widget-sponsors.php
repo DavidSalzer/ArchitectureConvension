@@ -124,11 +124,11 @@ class Ef_Sponsors_Widget extends WP_Widget {
 				<h3 class="sponsor"><!--<span><?php echo $category->name; ?></span>--></h3><!-- .sponsors .sponsors-lg --><?php
 			}//end categories foreach loop?>
 			
-			<!--<div class="text-center visible-xs">
+			<div class="text-center visible-xs">
 				<a href="<?php echo stripslashes($sponsorsbuttonlink); ?>" class="btn btn-primary btn-header">
 					<?php echo stripslashes($sponsorsbuttontext); ?>
 				</a>
-			</div>-->
+			</div>
 		</div><?php
 	    
 		echo stripslashes( $args['after_widget'] );
