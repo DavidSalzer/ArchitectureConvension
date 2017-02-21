@@ -46,6 +46,10 @@ $footer_content = new EF_Text_Field( 'ef_footer_content' , 'Footer Copyright Con
 /*
  * Homepage Options Fields
  */
+
+$event_banerbg = new EF_Image_Field( 'ef_banerbg' , 'Baner Background Image' );
+$event_banerbgcolor = new EF_Color_Field( 'ef_banerbgcolor' , 'Baner Background color' );
+
 $event_title = new EF_Text_Field( 'ef_herotitle' , 'Event Title' );
 $event_tagline = new EF_Text_Field( 'ef_herotagline' ,  'Event Tagline' );
 $hero_background = new EF_Image_Field( 'ef_hero' ,  'Hero Background' );
@@ -77,6 +81,8 @@ $tab_general_site_options->add_field( 'ef_logo', $logo );
 $tab_general_site_options->add_field( 'ef_footer_content', $footer_content );
 
 // Add fields to Homepage Options
+$tab_homepage_options->add_field( 'ef_banerbg' , $event_banerbg );
+$tab_homepage_options->add_field( 'ef_banerbgcolor' , $event_banerbgcolor );
 $tab_homepage_options->add_field( 'ef_herotitle', $event_title );
 $tab_homepage_options->add_field( 'ef_herotagline', $event_tagline );
 $tab_homepage_options->add_field( 'ef_hero', $hero_background );
