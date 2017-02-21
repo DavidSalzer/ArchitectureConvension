@@ -5,10 +5,10 @@ jQuery(function($){
 			})
 		});
 		$(document).ready(function(){
-                $('#widgets-right .color-picker, .inactive-sidebar .widget-color-picker').wpColorPicker();
+                $('#widgets-right .widget-color-picker, .inactive-sidebar .widget-color-picker, #widgets-left .widget-color-picker').wpColorPicker();
             });
             $(document).ajaxComplete(function() {
-                $('#widgets-right .color-picker, .inactive-sidebar .widget-color-picker').wpColorPicker();
+                $('#widgets-right .widget-color-picker, .inactive-sidebar .widget-color-picker, #widgets-left .widget-color-picker').wpColorPicker();
             }); 
 	  // Set all variables to be used in scope
 	  var frame,

@@ -109,7 +109,7 @@ class Ef_AddText_Widget extends WP_Widget {
 	    <input type="text" class="widefat" name="<?php echo $this->get_field_name( 'addText' ); ?>" value="<?php echo stripslashes($addText); ?>" />
 	    <br /><br />
         <em><?php _e('Color (Hex):', 'dxef'); ?></em><br />
-	    <input type="text" class="widefat colorpicker" name="<?php echo $this->get_field_name( 'fontColor' ); ?>" value="<?php echo stripslashes($fontColor); ?>" />
+	    <input type="text" class="widefat widget-color-picker" name="<?php echo $this->get_field_name( 'fontColor' ); ?>" value="<?php echo stripslashes($fontColor); ?>" />
 	    <br /><br />
 	    <input type="hidden" name="submitted" value="1" />
 	    <?php

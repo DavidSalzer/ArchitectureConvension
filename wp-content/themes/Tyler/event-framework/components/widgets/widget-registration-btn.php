@@ -120,10 +120,10 @@ class Ef_RegistrationBtn_Widget extends WP_Widget {
 	    <input type="text" class="widefat" name="<?php echo $this->get_field_name( 'registrationlink' ); ?>" value="<?php echo stripslashes($registrationlink); ?>" />
 	    <br /><br />
         <em><?php _e('Text Color:', 'dxef'); ?></em><br />
-	    <input type="text" class="widefat colorpicker" name="<?php echo $this->get_field_name( 'registrationcolor' ); ?>" value="<?php echo stripslashes($registrationcolor); ?>" />
+	    <input type="text" class="widefat widget-color-picker" name="<?php echo $this->get_field_name( 'registrationcolor' ); ?>" value="<?php echo stripslashes($registrationcolor); ?>" />
 	    <br /><br />
         <em><?php _e('Background Color:', 'dxef'); ?></em><br />
-	    <input type="text" class="widefat colorpicker" name="<?php echo $this->get_field_name( 'registrationbgcolor' ); ?>" value="<?php echo stripslashes($registrationbgcolor); ?>" />
+	    <input type="text" class="widefat widget-color-picker" name="<?php echo $this->get_field_name( 'registrationbgcolor' ); ?>" value="<?php echo stripslashes($registrationbgcolor); ?>" />
 	    <br /><br />
 	    <input type="hidden" name="submitted" value="1" />
 	    <?php

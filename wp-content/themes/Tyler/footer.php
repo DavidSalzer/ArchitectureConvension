@@ -3,7 +3,7 @@ $ef_options = EF_Event_Options::get_theme_options();
 ?>
 
 <footer>
-    <?php wp_nav_menu( array('menu' => 'links' )); ?>
+    <?php wp_nav_menu( array( 'menu' => 'links','fallback_cb'=>false ) ); ?>
     <div class="container">
         <div class="row row-sm">
             <a id="cambium-logo" href="http://cambium.co.il/" target="_blank"></a>
