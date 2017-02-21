@@ -115,13 +115,68 @@
 <input type="text" class="widefat" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo stripslashes($title); ?>" />
 <br /><br />
 <em><?php _e('Color:', 'dxef'); ?></em><br />
-<input type="text" class="widefat colorpicker" name="<?php echo $this->get_field_name( 'color' ); ?>" value="<?php echo stripslashes($color); ?>" />
+<input type="text" class="widefat widget-color-picker" name="<?php echo $this->get_field_name( 'color' ); ?>" value="<?php echo stripslashes($color); ?>" />
 <br /><br />
 <em><?php _e('Image:', 'dxef'); ?></em><br />
 <input  name="<?php echo $this->get_field_name( 'image' ); ?>" class="widefat fileUploader" type="text" value="<?php echo stripslashes($image); ?>">
 <br /><br />
 <input type="hidden" name="submitted" value="1" />
+<script>
+jQuery(function($){
 
+	  // Set all variables to be used in scope
+	  var frame,
+	      fileUploader = $('.fileUploader'), // Your meta box id here
+	      addImgLink = $('#the_video_upload'),
+	      imgContainer =$( '#post_video');
+	     
+	  
+	  // ADD IMAGE LINK
+	  fileUploader.off('click').on( 'click', function( event ){
+		   var frame;
+	    var self=this;
+	    event.preventDefault();
+	    
+	    // If the media frame already exists, reopen it.
+	    if ( frame ) {
+	      frame.open();
+	      return;
+	    }
+	    
+	    // Create a new media frame
+	    frame = wp.media({
+	      title: 'Select or Upload Media Of Your Chosen Persuasion',
+	      button: {
+	        text: 'Use this media'
+	      },
+	      multiple: false  // Set to true to allow multiple files to be selected
+	    });
+
+	    
+	    // When an image is selected in the media frame...
+	    frame.on( 'select', function() {
+	      
+	      // Get media attachment details from the frame state
+	      var attachment = frame.state().get('selection').first().toJSON();
+	      self.value=attachment.url;
+	      // Send the attachment URL to our custom image input field.
+	      
+	    });
+
+	    // Finally, open the modal on click
+	    frame.open();
+	  });
+	  
+
+
+	   
+
+	  
+
+
+
+	});
+</script>
 <?php
     
         }

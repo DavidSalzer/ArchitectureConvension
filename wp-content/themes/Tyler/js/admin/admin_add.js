@@ -1,7 +1,15 @@
 jQuery(function($){
- $(function () {
-    $('.colorpicker').wpColorPicker();
-     });
+	 $(function () {
+			$('.colorpicker').each(function(e){
+					$(this).wpColorPicker();
+			})
+		});
+		$(document).ready(function(){
+                $('#widgets-right .color-picker, .inactive-sidebar .widget-color-picker').wpColorPicker();
+            });
+            $(document).ajaxComplete(function() {
+                $('#widgets-right .color-picker, .inactive-sidebar .widget-color-picker').wpColorPicker();
+            }); 
 	  // Set all variables to be used in scope
 	  var frame,
 	      fileUploader = $('.fileUploader'), // Your meta box id here
@@ -11,6 +19,7 @@ jQuery(function($){
 	  
 	  // ADD IMAGE LINK
 	  fileUploader.on( 'click', function( event ){
+		   var frame;
 	    var self=this;
 	    event.preventDefault();
 	    
