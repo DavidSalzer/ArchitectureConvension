@@ -8,7 +8,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div>
+            <div class="col-lg-12">
                 <?php the_post_thumbnail(null, array('class' => 'img-rounded')); ?>
                 <?php the_content(); ?>
                

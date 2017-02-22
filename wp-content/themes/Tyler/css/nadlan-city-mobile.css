@@ -48,7 +48,10 @@
  * Small devices - Tablets (≥768px)
 */
 @media (max-width: 991px) {
-    
+    .home-baner {
+        margin-top: 0;
+    }
+
     .pas-baner {
         height: 52px;
     }
@@ -107,7 +110,7 @@
  * Extra small devices - Phones (<768px)
 */
 @media (max-width: 768px) {
-    
+
     .pas-baner {
         height: 28px;
     }
@@ -124,6 +127,7 @@
         font-size: 16px;
         max-width: 80%;
     }
+
     .wpcf7-response-output {
         position: absolute;
         top: -135px;
@@ -361,7 +365,7 @@
 */
 @media (max-width: 991px) {
     body {
-        padding-top: 101px;
+        padding-top: 70px;
     }
 
     body.header-menu-open {
@@ -373,7 +377,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: auto;
+        height: 70px;
         max-height: 100%;
         z-index: 1000;
     }
@@ -405,7 +409,7 @@
 
 
     header #logo, header.sticky #logo {
-        margin: 7px 0 0 9px;
+        margin: 15px 0 0 9px;
     }
 
     .navbar-toggle .icon-bar {
@@ -976,16 +980,16 @@
     }
 
     body {
-        padding-top: 65px;
+        padding-top: 70px;
     }
 
     header #logo, header.sticky #logo {
-        margin: 7px 0 0 9px;
+        margin: 11px 0 0 9px;
     }
 
     header #logo img, header.sticky #logo img {
-        width: 130px !important;
-        max-width: 130px !important;
+        width: 100px !important;
+        max-width: 100px !important;
         margin-top: 0 !important;
     }
 
@@ -1491,7 +1495,7 @@
         width: 300px;
     }
 
-    #nadlan-conference .sessions .session {
+    #nadlan-conference .sessions .session, #nadlan-speakers .sessions .session {
         width: 44%;
         margin: 0px 1% 40px 1%;
     }

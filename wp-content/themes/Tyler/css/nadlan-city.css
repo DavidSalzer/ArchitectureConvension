@@ -162,15 +162,17 @@ header ul li {
     height: 85px;
     background-repeat: repeat-x;
     background-size: contain;
-    background-position: bottom;
+    
 }
 
 .top-baner {
     margin-bottom: 35px;
+    background-position: top;
 }
 
 .bottom-baner {
     margin-top: 35px;
+    background-position: bottom;
 }
 
 .add-text {
@@ -1533,9 +1535,9 @@ html, body {
     height: 100%;
 }
 
-body.header-sticky {
+/*body.header-sticky {
     padding-top: 46px;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Open Sans Hebrew';
@@ -3991,3 +3993,16 @@ MEDIA CUSTOMIZATION
     background: #fff;
     color: #b140a3 !important;
 }*/
+.countdown-title {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#the-countdown-2-wrapper {
+    margin-bottom: 60px;
+    padding: 7px 7px 7px 7px;
+    background-color: #ca2a1d;
+}
