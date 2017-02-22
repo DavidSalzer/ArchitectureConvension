@@ -47,6 +47,7 @@
             $title		= isset( $instance['title'] ) ? $instance['title'] : '';
             $color	= isset( $instance['color'] ) ? $instance['color'] : '';
             $image	= isset( $instance['image'] ) ? $instance['image'] : '';
+            $link	= isset( $instance['link'] ) ? $instance['link'] : '';
 			
             echo stripslashes( $args['before_widget'] );
 ?>
@@ -54,10 +55,10 @@
 <!-- speaker wideget element -->
 
                 <div class="speaker  featured">
-                    <a class="speaker-inner">
+                    <a class="speaker-inner" href="<?=$link?>">
 
                         <span class="photo" style="background: <?=$color?>;">
-                            <img src="<?=$image?>" class="attachment-tyler-speaker wp-post-image" alt="ועידות" title="ועידות">
+                            <img src="<?=$image?>" class="attachment-tyler-speaker wp-post-image" alt="<?=$title?>" title="<?=$title?>">
                         </span>
                         <span class="name"><span class="text-fit"><span class="text-fit-inner" style="display:block"><?=$title?></span></span></span>
 
@@ -90,6 +91,7 @@
         $instance['title']		= strip_tags( $new_instance['title'] );
         $instance['color']	= strip_tags( $new_instance['color'] );
         $instance['image']	= $new_instance['image'];
+        $instance['link']	= $new_instance['link'];
     
         return $instance;
     
@@ -109,6 +111,7 @@
         $title		= isset( $instance['title'] ) ? $instance['title'] : '';
         $image	= isset( $instance['image'] ) ? $instance['image'] : '';
         $color	= isset( $instance['color'] ) ? $instance['color'] : '';
+        $link	= isset( $instance['link'] ) ? $instance['link'] : '';
 ?>
 
 <em><?php _e('Title:', 'dxef'); ?></em><br />
@@ -119,6 +122,9 @@
 <br /><br />
 <em><?php _e('Image:', 'dxef'); ?></em><br />
 <input  name="<?php echo $this->get_field_name( 'image' ); ?>" class="widefat fileUploader" type="text" value="<?php echo stripslashes($image); ?>">
+<br /><br />
+<em><?php _e('Link to:', 'dxef'); ?></em><br />
+<input  name="<?php echo $this->get_field_name( 'link' ); ?>" class="widefat" type="text" value="<?php echo stripslashes($link); ?>">
 <br /><br />
 <input type="hidden" name="submitted" value="1" />
 <script>
