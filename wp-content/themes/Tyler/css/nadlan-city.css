@@ -3944,8 +3944,13 @@ MEDIA CUSTOMIZATION
 
 .hasCountdown {
     margin-bottom: 60px;
-    width: 350px;
+    width: 280px;
     margin: auto;
+}
+
+.countdown_amount {
+    font-size: 17px;
+    line-height: 17px;
 }
 
 #the-countdown-3-wrapper {
