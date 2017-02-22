@@ -129,7 +129,7 @@
         // Color Schemes
         $color_scheme = empty( $ef_options['ef_color_palette'] ) ? 'basic' : $ef_options['ef_color_palette'];
         if ( isset( $color_scheme ) && $color_scheme != 'basic' ) {
-            //wp_enqueue_style( $color_scheme . '-scheme', get_template_directory_uri() . '/css/schemes/' . $color_scheme . '/layout.css' );
+            wp_enqueue_style( $color_scheme . '-scheme', get_template_directory_uri() . '/css/schemes/' . $color_scheme . '/layout.css' );
         }
     
         if (get_page_template_slug() == 'twitter.php') {
@@ -191,6 +191,7 @@
 				   	wp_enqueue_script('media-upload');
 					wp_enqueue_script('thickbox');
 					wp_enqueue_style('thickbox');
+                    wp_enqueue_style('wp-color-picker');
 					wp_enqueue_media();
 					wp_enqueue_script( 'my-script-handle', get_stylesheet_directory_uri() . '/js/admin/admin_add.js', array('media-upload', 'thickbox','jquery','wp-color-picker' ), '1.0', true );
                    if (in_array($hook, array('post.php', 'post-new.php'))) {
