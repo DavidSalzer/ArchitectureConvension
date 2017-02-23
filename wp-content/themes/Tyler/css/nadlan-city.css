@@ -162,7 +162,6 @@ header ul li {
     height: 85px;
     background-repeat: repeat-x;
     background-size: contain;
-    
 }
 
 .top-baner {
@@ -1369,12 +1368,12 @@ span.wpcf7-form-control-wrap textarea {
 
 .wpcf7-form label {
     font-weight: normal;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .wpcf7-submit {
-    background: url('../images/send.png');
-    background-size: cover;
+    color: #fff;
+    background-color: #ca2a1d;
     width: 278px;
     height: 54px;
     border: 0;
@@ -1395,6 +1394,7 @@ span.wpcf7-form-control-wrap textarea {
     outline: none !important;
     margin: 0 0 1em !important;
     width: 15% !important;
+    color: #000!important;
 }
 
 div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors {
@@ -1921,7 +1921,6 @@ header.sticky #menu-primary {
     margin: 0;
     padding: 27px 0;
     line-height: 1.2;
-
 }
 
 .heading h1 p {
@@ -2568,7 +2567,6 @@ h2 + .btn-header {
 }
 
 span.social {
-    
     display: inline-block;
     position: relative;
     font-size: 26px;
